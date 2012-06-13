@@ -10,3 +10,7 @@
       font-size: ($size / 10) + rem;
     }
   }
+
+  @mixin defaultFontFamily {
+    font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
