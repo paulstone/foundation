@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
 	function activateTab($tab) {
 		var $activeTab = $tab.closest('dl').find('a.active'),
 				contentLocation = $tab.attr("href") + 'Tab';
-				
+
 		// Strip off the current url that IE adds
 		contentLocation = contentLocation.replace(/^.+#/, '#');
 
@@ -83,11 +83,38 @@ jQuery(document).ready(function ($) {
       $(this).children('.flyout').show();
     }, function() {
       $(this).children('.flyout').hide();
-    })
+    });
   }
 
 
 	/* DISABLED BUTTONS ------------- */
 	/* Gives elements with a class of 'disabled' a return: false; */
-  
+  if (!Modernizr.touch) $('.button.dropdown > ul').addClass('no-hover');
+
+  $('.button.dropdown').click(function(e) {
+    e.stopPropagation();
+  });
+  $('.button.dropdown.split span').click(function(e) {
+    e.preventDefault();
+    $('.button.dropdown').not($(this).parent()).children('ul').removeClass('show-dropdown');
+    $(this).siblings('ul').toggleClass('show-dropdown');
+  });
+  $('.button.dropdown').not('.split').click(function(e) {
+    e.preventDefault();
+    $('.button.dropdown').not(this).children('ul').removeClass('show-dropdown');
+    $(this).children('ul').toggleClass('show-dropdown');
+  });
+  $('body, html').click(function() {
+    $('.button.dropdown ul').removeClass('show-dropdown');
+  });
+
+  /* REQUIRED CSS CHANGES
+  .button.dropdown:hover > ul.no-hover {
+    display: none;
+  }
+  .button.dropdown > ul.show-dropdown {
+    display: block !important;
+  }
+  */
+
 });
