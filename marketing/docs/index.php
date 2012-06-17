@@ -2,32 +2,32 @@
 <?php include("includes/_documentation_head.php"); ?>
 
 	<div class="container">
-		<div class="row">
+		<header class="row">
 			<div class="twelve columns">
-				<div class="foundation-header">
-					<h1><a href="index.php">Foundation Docs</a></h1>
-					<h4 class="subheader">Rapid prototyping and building library from ZURB.</h4>
-				</div>
+					<h1><a href="index.php">Foundation 3 Documentation</a></h1>
+					<h4 class="subheader">Everything you need to know to build for the future.</h4>
 			</div>
-		</div>
+		</header>
 		
 		<div class="row">
 			<div class="two columns">
-				<dl class="nice tabs vertical hide-on-phones">
+				<dl class="tabs vertical hide-on-phones">
 					<dd><a href="index.php" class="active">Getting Started</a></dd>
-					<dd><a href="grid.php">Grid</a></dd>
+					<dd><a href="installing.php">Installing</a></dd>
+					<dd><a href="grid.php">The Grid</a></dd>
+					<dd><a href="typography.php">Typography</a></dd>
 					<dd><a href="buttons.php">Buttons</a></dd>
 					<dd><a href="forms.php">Forms</a></dd>
-					<dd><a href="layout.php">Layout</a></dd>
-					<dd><a href="ui.php">UI</a></dd>
+					<dd><a href="navigation.php">Navigation</a></dd>
+					<dd><a href="tabs.php">Tabs</a></dd>
+					<dd><a href="elements.php">Elements</a></dd>
 					<dd><a href="orbit.php">Orbit</a></dd>
 					<dd><a href="reveal.php">Reveal</a></dd>
-					<dd><a href="gems.php">Gems</a></dd>
-					<dd><a href="qa.php">QA</a></dd>
+					<dd><a href="support.php">Support</a></dd>
 				</dl>
 			</div>
 			<div class="six columns">
-				<h3>Welcome to Foundation!</h3>
+				<h3>Welcome to Foundation 3!</h3>
 				<h4 class="subheader">Welcome to the Foundation documentation. Here you can learn what Foundation includes, as well as how to use it on mobile and on the desktop Web.</h4>
 				
 				<hr />
