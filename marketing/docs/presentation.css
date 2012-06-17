@@ -7,11 +7,15 @@
 
 
 body { padding-bottom: 60px; }
-.row { width: 1200px; }
+.row { width: 1440px; }
 
 h1, h2, h3, h4, h5 { font-family: "Titillium"; }
 
 header .subheader { position: relative; top: -18px; }
+
+.cta-panel { background: #2ba6cb; padding: 12px 12px 0; color: #fff; margin-bottom: 24px; }
+.cta-panel h3, .cta-panel h4, .cta-panel h5, .cta-panel a { color: #fff; }
+.cta-panel a.secondary { background: #fff; width: 100%; }
 
 .row.display { background: #f4f4f4; margin-bottom: 10px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
 .row.display .column, .row.display .columns { background: #e7e7e7; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
