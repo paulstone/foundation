@@ -141,15 +141,43 @@
 				<h3>Forms</h3>
 				
 				<form>
+				  <div class="row">
+				    <div class="two columns">
+				      <label class="right">Street</label>
+				    </div>
+				    <div class="ten columns">
+				      <input type="text" placeholder="123 Main St." />
+				    </div>
+				  </div>
+				  <div class="row">
+				    <div class="two columns">
+				      <label class="right">City, ZIP</label>
+				    </div>
+				    <div class="eight columns">
+				      <input type="text" placeholder="Campbell" />
+				    </div>
+				    <div class="two columns">
+				      <select>
+				        <option>CA</option>
+				      </select>
+				    </div>
+				  </div>
+				</form>
+				
+				<form>
 				  <label>This is a label.</label>
 				  <input type="text" placeholder="Standard Input" />
 				  
 				  <label>This is another label.</label>
-				  <input type="text" class="large" placeholder="Large input" />
+				  <input type="text" class="twelve" placeholder="Large input" />
 				  
 				  <label>Address</label>
-				  <input type="text" class="large" />
-				  <input type="text" class="inline medium" /> <input type="text" class="inline small" />
+				  <input type="text" class="twelve" placeholder="Street" />
+				  <div class="row">
+				    <div class="six columns"><input type="text" /></div>
+				    <div class="three columns"><input type="text" /></div>
+				    <div class="three columns"><input type="text" /></div>
+  				</div>
 				  
 				  <fieldset>
 				    
@@ -159,11 +187,13 @@
   				  <input type="text" placeholder="Standard Input" />
   				  
   				  <label>This is another label.</label>
-  				  <input type="text" class="large" placeholder="Large input" />
+  				  <input type="text" class="twelve" placeholder="Large input" />
   				  
   				  <label>Address</label>
-  				  <input type="text" class="large" />
-  				  <input type="text" class="inline medium" /> <input type="text" class="inline small" />
+  				  <input type="text" class="twelve" />
+  				  <input type="text" class="six" /> 
+  				  <input type="text" class="three" /> 
+  				  <input type="text" class="three" />
 				    
 				  </fieldset>
 				
@@ -172,14 +202,17 @@
 								
 				<h3>Disabled Forms</h3>
 				<form class="custom">
-										
-  				<label for="radio1"><input name="radio1" type="radio" id="radio1" style="display: none; "> Radio Button 1</label>
-  				<label for="radio2"><input name="radio1" type="radio" id="radio2" style="display: none; "> Radio Button 2</label>
-  				<label for="radio3"><input name="radio1" disabled="DISABLED" type="radio" id="radio3" style="display: none; "> Radio Button 3</label>
+					<p>					
+    				<label for="radio1"><input name="radio1" type="radio" id="radio1" style="display: none; "> Radio Button 1</label>
+    				<label for="radio2"><input name="radio1" type="radio" id="radio2" style="display: none; "> Radio Button 2</label>
+    				<label for="radio3"><input name="radio1" disabled="DISABLED" type="radio" id="radio3" style="display: none; "> Radio Button 3</label>
+    		  </p>
   				
-					<label for="checkbox1"><input type="checkbox" id="checkbox1" style="display: none; "> Label for Checkbox</label>
-					<label for="checkbox2"><input type="checkbox" id="checkbox2" checked="" style="display: none; "> Label for Checkbox</label>
-					<label for="checkbox3"><input type="checkbox" disabled="DISABLED" checked="" id="checkbox3" style="display: none; "> Label for Checkbox</label>
+  				<p>
+    				<label for="checkbox1"><input type="checkbox" id="checkbox1" style="display: none; "> Label for Checkbox</label>
+    				<label for="checkbox2"><input type="checkbox" id="checkbox2" checked="" style="display: none; "> Label for Checkbox</label>
+    				<label for="checkbox3"><input type="checkbox" disabled="DISABLED" checked="" id="checkbox3" style="display: none; "> Label for Checkbox</label>
+					</p>
 					
 					<p>This is a paragraph with an inline select element.
 						<select disabled="DISABLED">
