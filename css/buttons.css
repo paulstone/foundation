@@ -43,7 +43,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 .button.dropdown > ul li.divider { border-top: 1px solid #ddd; margin: 0; }
 .button.dropdown.small > ul { top: 32px; }
 .button.dropdown.large > ul { top: 43px; }
-.button.dropdown:hover > ul { display: block; }
+.button.dropdown.hover > ul { display: block; }
 .button.dropdown.split { padding: 0; }
 .button.dropdown.split:hover { background-color: #2ba6cb; }
 .button.dropdown.split.alert:hover { background-color: #e91c21; }
