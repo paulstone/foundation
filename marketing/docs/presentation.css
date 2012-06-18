@@ -13,12 +13,8 @@ h1, h2, h3, h4, h5 { font-family: "Titillium"; }
 
 header .subheader { position: relative; top: -18px; }
 
-.cta-panel { background: #2ba6cb; padding: 12px 12px 0; color: #fff; margin-bottom: 24px; }
-.cta-panel h3, .cta-panel h4, .cta-panel h5, .cta-panel a { color: #fff; }
-.cta-panel a.secondary { background: #fff; width: 100%; }
-
-.row.display { background: #f4f4f4; margin-bottom: 10px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
-.row.display .column, .row.display .columns { background: #e7e7e7; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+.row.display { background: #f4f4f4; margin-bottom: 10px; }
+.row.display .column, .row.display .columns { background: #e7e7e7; border: 1px solid #ddd; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; }
 
 
 /* -----------------------------------------
@@ -74,7 +70,8 @@ header .subheader { position: relative; top: -18px; }
 .jobs { border: 1px solid #eee; padding: 20px; }
 .jobs .location { display: block; color: #555; }
 .jobs ul { margin-bottom: 0px; }
-.jobs h5 { font-weight: bold; font-size: 15px; margin-bottom: 10px; }
+.jobs ul li { list-style: none; margin-bottom: 12px; }
+.jobs h5 { font-weight: 700; margin-bottom: 10px; }
 
 .jobs-link { font-size: 13px !important; white-space: nowrap;  text-decoration: underline; font-weight: inherit; margin-bottom: 20px;}
 .jobs-link a { color: # 555 !important;}

@@ -1,8 +1,8 @@
-				<div class="panel hide-on-phones">
+				<div class="panel secondary hide-on-phones">
 					<h4>Get Foundation</h4>
-					<p>Download Foundation here to get started quickly. Includes the base file structure, CSS, JS, and required images.</p>
+					<p>Grab the style of Foundation that works for you, whether that's SCSS or straight CSS, everything or just bits and pieces.</p>
 					<p>
-						<a href="../files/foundation-download-<?= $version ?>.zip" class="nice radius blue button mobile src-download">Download Foundation</a>
+						<a href="../files/foundation-download-<?= $version ?>.zip" class="button mobile src-download">Install Foundation</a>
 					</p>
 				</div>
 

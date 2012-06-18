@@ -25,29 +25,19 @@
       			<div class="row">
       			  <div class="four columns">
         			  <h5>Developed with Sass</h5>
-        			  <p>Foundation 3 is built with Sass (SCSS, to be precise), a powerful CSS preprocessor which allows us to much more quickly develop and Foundation itself, and sites built with it. If you're comfortable with Sass, getting started is a piece of cake. If you're not, it's still a piece of cake. You can download a pure CSS version of Foundation and work from that, no problem.</p>   			  
+        			  <p>Foundation 3 is built with Sass, a powerful CSS preprocessor which allows us to much more quickly develop Foundation itself, as well as sites built with it. You can use the Sass or straight CSS version of Foundation.</p>   			  
       			  </div>
       			  <div class="four columns">
         			  <h5>Feature Complete</h5>
-        			  <p>Prototyping with Foundation has always been fast, but now it's even faster. New button elements, new navigation types, new form styles and options, and tons of streamlining make this the fastest way to prototype responsively, and to take that code and go right to production.</p>
+        			  <p>New button elements, new navigation types, new form styles and options, and tons of streamlining make this the fastest way to prototype responsively, and to take that code and go right to production.</p>
       			  </div>
       			  <div class="four columns">
         			  <h5>Freakishly Advanced</h5>
-        			  <p>Foundation is the most advanced front-end Web framework in the world. While the Framework works back all the way to IE8, we're taking advantage of new, awesome Web technology to help you build faster and better. And this is just the beginning. You won't believe what else we have in store.</p>
+        			  <p>Foundation is the most advanced front-end Web framework in the world. While the Framework works back all the way to IE8, we're taking advantage of new, awesome Web technology to help you build faster and better.</p>
       			  </div>
       			</div>
       			
-      			<div class="cta-panel">
-      			  <h4><a href="install.php">Next: Install Foundation</a></h4>
-        			<div class="row">
-          			<div class="nine columns">
-          			  <p>Grab the style of Foundation that works for you, whether that's SCSS or straight CSS, everything or just bits and pieces.</p>
-          			</div>
-          			<div class="three columns">
-            			<a href="install.php" class="secondary radius button">Install &rarr;</a>
-          			</div>
-        			</div>
-        		</div>
+      			<hr />
       			
       			<h3>Features of Foundation</h3>
       			<div class="row">

@@ -60,7 +60,11 @@ ul.nice li, ol.nice li { padding-left: 13px; position: relative; }
 ul.nice li span.bullet, ul.nice li span.number, ol.nice li span.bullet, ol.nice li span.number { position: absolute; left: 0; top: 0; color: #ccc; }
 
 /* Panels */
-div.panel { padding: 20px 20px 2px 20px; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f4f4f4)), #eeeeee; background: -webkit-linear-gradient(#ffffff, #f4f4f4), #eeeeee; background: -moz-linear-gradient(#ffffff, #f4f4f4), #eeeeee; background: -o-linear-gradient(#ffffff, #f4f4f4), #eeeeee; background: -ms-linear-gradient(#ffffff, #f4f4f4), #eeeeee; background: linear-gradient(#ffffff, #f4f4f4), #eeeeee; -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 2px 5px; -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 2px 5px; box-shadow: rgba(0, 0, 0, 0.15) 0 2px 5px; margin: 0 0 20px 0; }
+div.panel { background: #f2f2f2; border: solid 1px #e6e6e6; -webkit-box-shadow: inset 0px 1px 0px white; -moz-box-shadow: inset 0px 1px 0px white; box-shadow: inset 0px 1px 0px white; margin: 0 0 22px 0; padding: 0 14px; }
+div.panel.secondary { background: #2ba6cb; color: #fff; border-color: #2284a1; -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); }
+div.panel.secondary a { color: #fff; }
+div.panel.secondary .button { background: white; border: none; color: #2ba6cb; text-shadow: none; }
+div.panel.secondary .button:hover { background: rgba(255, 255, 255, 0.8); }
 
 /* Sub Navs http://www.zurb.com/article/292/how-to-create-simple-and-effective-sub-na */
 dl.sub-nav { display: block; width: auto; overflow: hidden; margin: -4px 0 18px -9px; padding-top: 4px; }
