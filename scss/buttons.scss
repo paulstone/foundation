@@ -1,57 +1,52 @@
-/*
-  Foundation 3, artfully masterminded by ZURB
-  Core
-  buttons.css - CSS3 buttons with configurable display and appearance options
-
-  Requires:
-    globals.css
-*/
+/*                                              */
+/* Requires:                                    */
+/*  -globals  .css                              */
+/*                                              */
 
   @import "base";
 
-  $radius: 3px;
+  // Button Mixins
+  $btnPadBase: 10px;
 
-	.button {
-		background: $mainColor; border: 1px solid darken(($mainColor), 15%); -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5); -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5); box-shadow: inset 0 1px 0 rgba(255,255,255,.5); color: #fff; cursor: pointer; display: inline-block; font-family: "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; @include font-size(13); font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 9px 21px 11px; position: relative; text-align: center; text-decoration: none; text-shadow: 0 -1px 1px rgba(0,0,0,0.28); -webkit-transition: background-color .15s ease-in-out; -moz-transition: background-color .15s ease-in-out; -o-transition: background-color .15s ease-in-out;
+/* Normal Buttons ---------------------- */
 
-  	&.secondary		{ text-shadow: none !important; }
+  .button { width: auto; background: $mainColor; border: 1px solid darken(($mainColor), 15%); @include box-shadow(0 1px 0 $shinyEdge inset); color: $white; cursor: pointer; display: inline-block; @include defaultFontFamily; font-size: ms(0); font-weight: bold; line-height: 1; margin: 0; outline: none; padding: $btnPadBase ($btnPadBase + 12) ($btnPadBase + 2); position: relative; text-align: center; text-decoration: none; @include single-transition(background-color, .15s, ease-in-out);
 
-  	/* Hovers ---------- */
-  	&:active 	{
-  		-moz-box-shadow: inset 0 1px 0 rgba(0,0,0,.15);
-  		-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.15);
-  		box-shadow: inset 0 1px 0 rgba(0,0,0,.15);
-  	}
+    /* Hovers */
+    &:hover { color: $white; background-color: darken(($mainColor), 10%); }
+    &:active  { @include box-shadow(0 1px 0 $darkEdge inset); }
+    &:focus { @include box-shadow(0 0 4px opacify($mainColor, 0.3), 0 1px 0 $shinyEdge inset); color: $white; }
 
-		&:hover { color: #fff; background-color: darken(($mainColor), 10%); }
+    /* Sizes */
+    &.tiny      { font-size: ms(0) - 4; padding: ($btnPadBase - 3) ($btnPadBase + 2) ($btnPadBase - 1); }
+    &.small     { font-size: ms(0) - 3; padding: ($btnPadBase - 1) ($btnPadBase + 6) ($btnPadBase + 1); }
+    &.medium    { font-size: ms(0); }
+    &.large     { font-size: ms(1); padding: ($btnPadBase + 2) ($btnPadBase + 22) ($btnPadBase + 4); }
+    &.expand    { width: 100%; text-align: center; }
 
-    /* Sizes ---------- */
-  	&.tiny			{ @include font-size(10); padding: 6px 9px 8px; width: auto; }
-  	&.small 		{ @include font-size(11); padding: 8px 14px 10px; width: auto; }
-  	&.medium 		{ @include font-size(13); width: auto; }
-  	&.large 		{ @include font-size(18); padding: 11px 28px 13px; width: auto; }
-
-  	/* Colors ---------- */
-    &.primary {
-      background-color: $mainColor; border: 1px solid darken(($mainColor), 15%);
+    /* Colors */
+    &.primary { background-color: $mainColor; border: 1px solid darken(($mainColor), 15%);
       &:hover { background-color: darken(($mainColor), 10%); }
+      &:focus { @include box-shadow(0 0 4px opacify($mainColor, 0.3), 0 1px 0 $shinyEdge inset); }
     }
-    &.success {
-      background-color: $successColor; border: 1px solid darken(($successColor), 15%);
+    &.success { background-color: $successColor; border: 1px solid darken(($successColor), 15%);
       &:hover { background-color: darken(($successColor), 10%); }
+      &:focus { @include box-shadow(0 0 5px opacify($successColor, 0.4), 0 1px 0 $shinyEdge inset); }
     }
-    &.alert {
-      background-color: $alertColor; border: 1px solid darken(($alertColor), 15%);
+    &.alert { background-color: $alertColor; border: 1px solid darken(($alertColor), 15%);
       &:hover { background-color: darken(($alertColor), 10%); }
+      &:focus { @include box-shadow(0 0 4px opacify($alertColor, 0.3), 0 1px 0 $shinyEdge inset); }
     }
-    &.secondary {
-      background-color: $secondaryColor; color: darken(($secondaryColor), 80%); border: 1px solid darken(($secondaryColor), 15%);
+    &.secondary { background-color: $secondaryColor; color: darken(($secondaryColor), 80%); border: 1px solid darken(($secondaryColor), 15%);
       &:hover { background-color: darken(($secondaryColor), 10%); }
+      &:focus { @include box-shadow(0 0 5px opacify($secondaryColor, 0.5), 0 1px 0 $shinyEdge inset); }
     }
 
-    &.radius { @include border-radius($radius); }
+    /* Radii */
+    &.radius { @include border-radius($buttonRadius); }
     &.round { @include border-radius(1000px); }
 
+    /* Layout */
     &.full-width { width: 100%; text-align: center; padding-left: 0 !important; padding-right: !important; }
     &.left-align { text-align: left; text-indent: 12px; }
 
@@ -72,18 +67,15 @@
     input[type=submit].large.button		{ padding: 9px 48px 10px; }
   }
 
-
-  /* Buttons with Dropdowns */
+/* Buttons with Dropdowns ---------------------- */
 
   .button.dropdown { position: relative;
-
-    &>span { width: 12px; height: 12px; background: url(../images/misc/dropdown-button-nub.png) 0 0 no-repeat transparent; display: inline-block; margin-left: 6px; }
-
+    &>span { width: 12px; height: 12px; background: image-url('misc/dropdown-button-nub.png') no-repeat; display: inline-block; margin-left: 6px; }
     &>ul { display: none; position: absolute; top: 34px; left: -1px; background: #fff; list-style: none; margin: 0; padding: 0; border: 1px solid #ddd; min-width: 100%;
 
       li { margin: 0; padding: 0; background: none; list-style: none; }
-      li a { display: block; color: #777; @include font-size(13); font-weight: normal; padding: 6px 6px; text-align: left; text-shadow: none; }
-      li.divider { border-top: 1px solid #ddd; margin: 0; }
+      li a { display: block; color: #777; font-size: ms(0); font-weight: normal; padding: 6px 6px; text-align: left; }
+      li.divider { border-top: darken($white, 10%); margin: 0; }
     }
 
     &.small>ul { top: 32px; }
@@ -98,12 +90,12 @@
       &.success:hover { background-color: $successColor; }
       &.secondary:hover { background-color: $secondaryColor; }
 
-      &>a { color: #fff; display: block; padding: 9px 54px 11px 21px; -webkit-transition: background-color .15s ease-in-out; -moz-transition: background-color .15s ease-in-out; -o-transition: background-color .15s ease-in-out;
+      &>a { color: $white; display: block; padding: $btnPadBase ($btnPadBase + 45) ($btnPadBase + 2) ($btnPadBase + 12); @include single-transition(background-color, .15s, ease-in-out);
 
         &:hover { background-color: darken(($mainColor), 10%); }
       }
 
-      &>span { background-color: $mainColor; background-position: 10px 10px; display: block; position: absolute; right: 0; top: 0; width: 32px; height: 33px; border-left: 1px solid darken(($mainColor), 15%); box-shadow: inset 1px 1px 0px rgba(255,255,255,0.35); -webkit-transition: background-color .15s ease-in-out; -moz-transition: background-color .15s ease-in-out; -o-transition: background-color .15s ease-in-out;
+      &>span { background-color: $mainColor; position: absolute; right: 0; top: 0; width: 32px; height: 33px; border-left: 1px solid darken(($mainColor), 15%); box-shadow: inset 1px 1px 0px rgba(255,255,255,0.35); @include single-transition(background-color, .15s, ease-in-out);
 
         &:hover { background-color: darken(($mainColor), 10%); }
       }
@@ -136,9 +128,9 @@
 
     &.radius {
 
-      li:first-child a.button, li:first-child a.button.radius, li:first-child a.button.rounded { @include border-radius(0px); border-top-left-radius: $radius; border-bottom-left-radius: $radius; }
+      li:first-child a.button, li:first-child a.button.radius, li:first-child a.button.rounded { @include border-radius(0px); border-top-left-radius: $buttonRadius; border-bottom-left-radius: $buttonRadius; }
       li + li a.button, li + li a.button.radius, li + li a.button.rounded { border-radius: 0; }
-      li:last-child a.button, li:last-child a.button.radius, li:last-child a.button.rounded { @include border-radius(0px); border-top-right-radius: $radius; border-bottom-right-radius: $radius; }
+      li:last-child a.button, li:last-child a.button.radius, li:last-child a.button.rounded { @include border-radius(0px); border-top-right-radius: $buttonRadius; border-bottom-right-radius: $buttonRadius; }
     }
 
     &.rounded {

@@ -3,9 +3,12 @@
  Requires: boxsizing.htc for IE7 support
 */
 .row { width: 1000px; max-width: 100%; min-width: 768px; margin: 0 auto; }
+.row.collapse .column, .row.collapse .columns { padding: 0; }
 .row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
+.row .row.collapse { margin: 0; }
 
 .column, .columns { float: left; min-height: 1px; padding: 0 15px; position: relative; }
+.column.centered, .columns.centered { float: none; margin: 0 auto; }
 
 [class*="column"] + [class*="column"]:last-child { float: right; }
 
@@ -91,8 +94,6 @@
 
 .pull-ten { right: 83.333%; }
 
-.row.centered { float: none; margin: 0 auto; }
-
 img, object, embed { max-width: 100%; height: auto; }
 
 img { -ms-interpolation-mode: bicubic; }
@@ -114,9 +115,9 @@ img { -ms-interpolation-mode: bicubic; }
   [class*="column"] + [class*="column"]:last-child { float: none; }
   .column:before, .columns:before, .column:after, .columns:after { content: ""; display: table; }
   .column:after, .columns:after { clear: both; }
-  .no-left-margin { margin-left: 0 !important; }
-  .left-auto { left: auto; }
-  .right-auto { right: auto; }
+  .offset-by-one, .offset-by-two, .offset-by-three, .offset-by-four, .offset-by-five, .offset-by-six, .offset-by-seven, .offset-by-eight, .offset-by-nine, .offset-by-ten { margin-left: 0 !important; }
+  .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
+  .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
   /* Mobile 4-column Grid */
   .row .phone-one, .row .phone-two, .row .phone-three, .row .phone-four { float: left; padding: 0 15px; }
   .row .phone-one:last-child, .row .phone-two:last-child, .row .phone-three:last-child, .row .phone-four:last-child { float: right; }
@@ -144,7 +145,6 @@ lines below to support arbitrary height, but know
 that IE7/8 do not support :nth-child.
 -------------------------------------------------- */
 .block-grid { display: block; overflow: hidden; padding: 0; }
-
 .block-grid > li { display: block; height: auto; float: left; }
 
 .block-grid.two-up { margin: 0 -15px; }
