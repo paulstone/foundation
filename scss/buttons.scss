@@ -44,21 +44,21 @@
     &.full-width { width: 100%; text-align: center; padding-left: 0 !important; padding-right: !important; }
     &.left-align { text-align: left; text-indent: 12px; }
 
-    /* Disabled ---------- */
-    &.disabled, &[disabled] { opacity: 0.6; cursor: default; }
+		/* Disabled ---------- */
+		&.disabled, &[disabled] { opacity: 0.6; cursor: default; }
 
-  }
+	}
 
   /* Don't use native buttons on iOS */
-  input[type=submit].button, button.button { -webkit-appearance: none; }
+	input[type=submit].button, button.button { -webkit-appearance: none; }
 
   /* Correct FF button padding */
   @-moz-document url-prefix("http://") {
     button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner { border: none; padding: 0;  }
-    input[type=submit].tiny.button    { padding: 5px 14px 7px; }
-    input[type=submit].small.button   { padding: 7px 20px 8px; }
-    input[type=submit].medium.button  { padding: 8px 34px 9px; }
-    input[type=submit].large.button   { padding: 9px 48px 10px; }
+    input[type=submit].tiny.button		{ padding: 5px 14px 7px; }
+    input[type=submit].small.button		{ padding: 7px 20px 8px; }
+    input[type=submit].medium.button	{ padding: 8px 34px 9px; }
+    input[type=submit].large.button		{ padding: 9px 48px 10px; }
   }
 
 /* Buttons with Dropdowns ---------------------- */
@@ -75,7 +75,7 @@
     &.small>ul { top: 32px; }
     &.large>ul { top: 43px; }
 
-    &:hover>ul { display: block; }
+    &.hover>ul { display: block; }
 
     &.split { padding: 0;
 

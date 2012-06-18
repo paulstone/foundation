@@ -4,47 +4,28 @@
 */
 /* ----------------------------------------- Standard Forms
 ----------------------------------------- */
-form { margin: 0 0 18px; }
+form { margin: 0 0 19.416px; }
 
-form label { display: block; font-size: 13px; font-size: 1.3rem; line-height: 18px; cursor: pointer; margin-bottom: 9px; }
+.row form .row { margin: 0 -6px; }
+.row form .row .column, .row form .row .columns { padding: 0 6px; }
 
-input.input-text, textarea { border-right: 1px solid #bbb; border-bottom: 1px solid #bbb; width: 254px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; /* Text input and textarea sizes */ }
-input.input-text:focus, textarea:focus { background-color: #f9f9f9; }
-input.input-text[disabled], textarea[disabled] { background-color: #ddd; }
-input.input-text.small, textarea.small { width: 134px; }
-input.input-text.medium, textarea.medium { width: 254px; }
-input.input-text.large, textarea.large { width: 434px; }
-input.input-text.expand, textarea.expand { width: 100%; }
+label { color: #4d4d4d; cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px; }
+label .right { float: none; text-align: right; }
+
+input[type="text"], textarea { border: 1px solid #cccccc; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); color: rgba(0, 0, 0, 0.75); display: block; font-size: 14px; margin: 0 0 12px 0; padding: 6px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -ms-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; }
+input[type="text"].oversize, textarea.oversize { font-size: 18px !important; font-size: 1.8rem !important; }
+input[type="text"]:focus, textarea:focus { background: #fafafa; outline: none !important; border-color: #b3b3b3; }
+input[type="text"][disabled], textarea[disabled] { background-color: #ddd; }
+
+select { width: 100%; }
 
 input.input-text, textarea { border: solid 1px #bbb; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; display: block; margin-bottom: 9px; font-size: 13px; font-size: 1.3rem; padding: 6px 3px 4px; outline: none !important; background: url(../images/misc/input-bg.png) white; }
 
-label + input.input-text, label + textarea, label + select, label + div.dropdown, select + div.dropdown { margin-top: -9px; }
-
 textarea { max-width: 100%; }
 
-/* Text input and textarea font and padding */
-input.input-text, textarea { font-size: 13px; font-size: 1.3rem; padding: 4px 3px 2px; background: #fff; }
-
-input.input-text:focus, textarea:focus { outline: none !important; }
-
-input.input-text.oversize, textarea.oversize { font-size: 18px !important; font-size: 1.8rem !important; padding: 4px 5px !important; }
-
-input.input-text:focus, textarea:focus { background: #f9f9f9; }
-
-/* Text input and textarea, disabled */
-input.input-text[disabled], textarea[disabled] { background-color: #ddd; }
-
-/* Inlined Label Style */
-input.placeholder, textarea.placeholder { color: #888; }
-
-/* Lock textareas so they can't be resized beyond their set width in webkit */
-textarea.locked { max-width: 254px; }
-textarea.locked.small { max-width: 134px; }
-textarea.locked.large { max-width: 434px; }
-textarea.locked.expand { max-width: 100%; }
-
 /* Fieldsets */
-form fieldset { border: solid 1px #ddd; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; padding: 9px 9px 2px 9px; margin: 18px 0; }
+fieldset { border: solid 1px #ddd; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; padding: 12px 12px 0; margin: 18px 0; }
+fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 0 0 0 -3px; }
 
 /* Inlined Radio & Checkbox */
 .form-field input[type=radio], div.form-field input[type=checkbox] { display: inline; width: auto; margin-bottom: 0; }
@@ -55,22 +36,6 @@ form fieldset { border: solid 1px #ddd; border-radius: 3px; -webkit-border-radiu
 .form-field.error label, label.alert { color: #e91c21; }
 
 .form-field.error small, small.error { padding: 6px 4px; border: solid 0 #C00000; border-width: 0 1px 1px 1px; margin-top: -10px; background: #e91c21; color: #fff; font-size: 12px; font-size: 1.2rem; font-weight: bold; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-bottomleft: 2px; -moz-border-radius-bottomright: 2px; display: block; margin-bottom: 9px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
-
-.small + small.error { width: 134px; }
-
-.medium + small.error { width: 254px; }
-
-.large + small.error { width: 434px; }
-
-.expand + small.error { width: 100%; }
-
-.small.oversize + small.error { width: 144px; }
-
-.medium.oversize + small.error { width: 264px; }
-
-.large.oversize + small.error { width: 444px; }
-
-.expand.oversize + small.error { width: 100%; }
 
 /* ----------------------------------------- Custom Forms
 ----------------------------------------- */
@@ -95,7 +60,7 @@ form.custom div.custom.dropdown:hover a.selector, form.custom div.custom.dropdow
 form.custom div.custom.dropdown ul { position: absolute; width: auto; display: none; margin: 0; left: 0; top: 27px; margin: 0; padding: 0; background: #fff; background: rgba(255, 255, 255, 0.95); border: solid 1px #ddd; }
 form.custom div.custom.dropdown ul li { cursor: pointer; padding: 3px 38px 3px 6px; min-height: 18px; line-height: 18px; margin: 0; white-space: nowrap; list-style: none; }
 form.custom div.custom.dropdown ul li.selected { background: url(../images/misc/custom-form-sprites.png) right -52px no-repeat; }
-form.custom div.custom.dropdown ul li:hover { background-color: #0593dc; color: #fff; }
-form.custom div.custom.dropdown ul li.selected:hover { background: url(../images/misc/custom-form-sprites.png) #0593dc right -78px no-repeat; }
+form.custom div.custom.dropdown ul li:hover { background-color: #2ba6cb; color: #fff; }
+form.custom div.custom.dropdown ul li.selected:hover { background: url(../images/misc/custom-form-sprites.png) #2ba6cb right -78px no-repeat; }
 form.custom div.custom.dropdown ul.show { display: block; }
 form.custom .custom.disabled { background-color: #ddd; }
