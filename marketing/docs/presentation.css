@@ -30,6 +30,15 @@ header .subheader { position: relative; top: -18px; }
 .gist .gist-file .gist-meta a { color: #999 !important; }
 .gist .gist-file .gist-meta a:hover { text-decoration: underline; }
 
+@media handheld, only screen and (max-width: 767px) {
+
+	header { border-bottom: 1px solid #eee; }
+	header .subheader { margin-bottom: 0; }
+	
+	header .menu-action { float: left; margin-right: 15px; }
+}
+
+
 
 /* -----------------------------------------
    Orbit Demo CSS
@@ -85,7 +94,7 @@ header .subheader { position: relative; top: -18px; }
 .jobs .location { display: block; color: #555; }
 .jobs ul { margin-bottom: 0px; }
 .jobs ul li { list-style: none; margin-bottom: 12px; }
-.jobs h5 { font-weight: 700; margin-bottom: 10px; }
+.jobs h5 { font-weight: 600; font-size: 15px; font-size: 1.5rem; margin-bottom: 10px; }
 
 .jobs-link { font-size: 13px !important; white-space: nowrap;  text-decoration: underline; font-weight: inherit; margin-bottom: 20px;}
 .jobs-link a { color: # 555 !important;}

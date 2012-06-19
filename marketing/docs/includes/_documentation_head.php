@@ -47,3 +47,13 @@
 </head>
 <body class="off-canvas">
 
+	<header id="header" class="row">
+	  <div class="eight columns">
+  	  <div class="show-for-small menu-action">
+  	    <a class='sidebar-button small radius button' id='sidebarButton' href="#sidebar" >=</a>
+  	  </div>
+  	  
+	    <h1><a href="index.php">Foundation 3 Documentation</a></h1>
+	    <h4 class="subheader">Everything you need to know to build for the future.</h4>
+	  </div>	
+	</header>
