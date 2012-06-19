@@ -44,10 +44,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 @media only screen and (max-width: 767px) { table.hide-for-xlarge, table.hide-for-large, table.hide-for-medium, table.show-for-small { display: table !important; } }
 /* -------------------------------------------------- :: Forms
 ---------------------------------------------------*/
-@media only screen and (max-width: 767px) { div.form-field input, div.form-field input.small, div.form-field input.medium, div.form-field input.large, div.form-field input.oversize, input.input-text, input.input-text.oversize, textarea, form div.form-field input, form.nice div.form-field input.oversize, form.nice input.input-text, form.nice input.input-text.oversize, form.nice textarea { display: block; width: 100%; padding: 6px 2% 4px; font-size: 18px; font-size: 1.8rem; }
-  form div.form-field input, form.nice div.form-field input.oversize, form.nice input.input-text, form.nice input.input-text.oversize, form.nice textarea { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
-  form div.form-field.error small, form.nice small.error { padding: 6px 2%; display: block; }
-  form div.form-field.error .small + small, form .small + .error, form div.form-field.error .medium + small, form .medium + .error, form div.form-field.error .large + small, form .large + .error, form div.form-field.error .expand + small, form .expand + .error { width: auto; } }
+@media only screen and (max-width: 767px) { label.right { text-align: left; } }
 /* -------------------------------------------------- :: UI
 ---------------------------------------------------*/
 /* Buttons */
@@ -60,7 +57,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
   dl.tabs.mobile dd a.active { height: auto; margin: 0; border-width: 1px 0 0; }
   .tabs.mobile { border-bottom: solid 1px #ccc; height: auto; }
   .tabs.mobile dd a { padding: 18px 20px; border: none; border-left: none; border-right: none; border-top: 1px solid #ccc; background: #fff; }
-  .tabs.mobile dd a.active { border: none; background: #0593dc; color: #fff; margin: 0; position: static; top: 0; height: auto; }
+  .tabs.mobile dd a.active { border: none; background: #2ba6cb; color: #fff; margin: 0; position: static; top: 0; height: auto; }
   .tabs.mobile dd:first-child a.active { margin: 0; }
   dl.contained.mobile, dl.nice.contained.mobile { margin-bottom: 0; }
   dl.contained.tabs.mobile dd a { padding: 18px 20px; }
