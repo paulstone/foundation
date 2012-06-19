@@ -27,7 +27,7 @@
   .text-right  { text-align: right; }
   .text-center { text-align: center; }
   .hide        { display: none; }
-  .highlight   { background: #ff0; }
+  .highlight   { background: $highlightColor; }
 
   #googlemap img, object, embed { max-width: none; }
 

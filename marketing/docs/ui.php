@@ -121,6 +121,7 @@
 					</div>
 				</div>
 				<p><em>Note: The third tab is using the <a href="layout.php">mobile visibility classes</a> to hide on small devices.</em></p>
+				<p><em>Note: To make your tabs fill the entire space of the container, add a class of <strong>.two-up</strong>, <strong>.three-up</strong>, <strong>.four-up</strong>, <strong>.five-up</strong></em></p>
 				<h5>Simple Tabs</h5>
 				<dl class="tabs">
 					<dd class="active"><a class="active" href="#simple1">Simple Tab 1</a></dd>
@@ -179,7 +180,7 @@
 				<p><em>Note: In IE7 the dropdowns are obscured by the code snippet below. This is due to IE7s iframe z-index bug, and is not an issue with the dropdowns themselves. Try not to have dropdown elements over an iframe.</em></p>
 
 				<ul class="nav-bar">
-					<li><a href="#" class="main">Nav Item 1</a></li>
+					<li class="active"><a href="#" class="main">Nav Item 1</a></li>
 					<li class="has-flyout">
 						<a href="#" class="main">Nav Item 2</a>
 						<a href="#" class="flyout-toggle"><span> </span></a>
@@ -192,20 +193,19 @@
 						<a href="#" class="main">Nav Item 3</a>
 						<a href="#" class="flyout-toggle"><span> </span></a>
 						<div class="flyout">
-				        	<div class="row">
-				         		<div class="twelve columns">
-				         			<h5>Medium Example (400px)</h5>
-				     				<div class="row">
-				   				  		<div class="six columns">
-				   				  			<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-				     					</div>
-				     					<div class="six columns">
-				     						<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-				     					</div>
-				     				</div>
-				  				</div>
-				  			</div>
-				  		</div>
+		        	<div class="row">
+		         		<div class="twelve columns">
+		         			<h5>Medium Example (400px)</h5>
+		     				<div class="row">
+		   				  	<div class="six columns">
+		   				  		<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+		     					</div>
+		     					<div class="six columns">
+		     						<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
+		     					</div>
+		     				</div>
+		  				</div>
+			  		</div>
 					</li>
 					<li class="has-flyout hide-on-tablets">
 						<a href="#" class="main">Nav Item 4</a>
