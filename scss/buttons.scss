@@ -15,25 +15,31 @@
     /* Hovers */
     &:hover { color: $white; background-color: darken(($mainColor), 10%); }
     &:active  { @include box-shadow(0 1px 0 $darkEdge inset); }
+    &:focus { @include box-shadow(0 0 4px opacify($mainColor, 0.3), 0 1px 0 $shinyEdge inset); color: $white; }
 
     /* Sizes */
     &.tiny      { font-size: ms(0) - 4; padding: ($btnPadBase - 3) ($btnPadBase + 2) ($btnPadBase - 1); }
     &.small     { font-size: ms(0) - 3; padding: ($btnPadBase - 1) ($btnPadBase + 6) ($btnPadBase + 1); }
     &.medium    { font-size: ms(0); }
     &.large     { font-size: ms(1); padding: ($btnPadBase + 2) ($btnPadBase + 22) ($btnPadBase + 4); }
+    &.expand    { width: 100%; text-align: center; }
 
     /* Colors */
     &.primary { background-color: $mainColor; border: 1px solid darken(($mainColor), 15%);
       &:hover { background-color: darken(($mainColor), 10%); }
+      &:focus { @include box-shadow(0 0 4px opacify($mainColor, 0.3), 0 1px 0 $shinyEdge inset); }
     }
     &.success { background-color: $successColor; border: 1px solid darken(($successColor), 15%);
       &:hover { background-color: darken(($successColor), 10%); }
+      &:focus { @include box-shadow(0 0 5px opacify($successColor, 0.4), 0 1px 0 $shinyEdge inset); }
     }
     &.alert { background-color: $alertColor; border: 1px solid darken(($alertColor), 15%);
       &:hover { background-color: darken(($alertColor), 10%); }
+      &:focus { @include box-shadow(0 0 4px opacify($alertColor, 0.3), 0 1px 0 $shinyEdge inset); }
     }
     &.secondary { background-color: $secondaryColor; color: darken(($secondaryColor), 80%); border: 1px solid darken(($secondaryColor), 15%);
       &:hover { background-color: darken(($secondaryColor), 10%); }
+      &:focus { @include box-shadow(0 0 5px opacify($secondaryColor, 0.5), 0 1px 0 $shinyEdge inset); }
     }
 
     /* Radii */

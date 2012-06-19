@@ -134,16 +134,7 @@
 
 
   @media #{$media-small} {
-    div.form-field input, div.form-field input.small, div.form-field input.medium, div.form-field input.large, div.form-field input.oversize, input.input-text, input.input-text.oversize, textarea,
-    form div.form-field input, form.nice div.form-field input.oversize, form.nice input.input-text, form.nice input.input-text.oversize, form.nice textarea { display: block; width: 100%; padding: 6px 2% 4px; @include font-size(18); }
-    form div.form-field input, form.nice div.form-field input.oversize, form.nice input.input-text, form.nice input.input-text.oversize, form.nice textarea { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
-
-    form div.form-field.error small, form.nice small.error { padding: 6px 2%; display: block; }
-
-    form div.form-field.error .small + small, form .small + .error,
-    form div.form-field.error .medium + small, form .medium + .error,
-    form div.form-field.error .large + small, form .large + .error,
-    form div.form-field.error .expand + small, form .expand + .error { width: auto; }
+    label.right { text-align: left; }
   }
 
 

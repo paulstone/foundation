@@ -17,7 +17,7 @@
 		<section role="main">
 		  <div class="row">
 		    <div class="eight columns">
-    			<h3>Orbit</h3>
+    			<h3>Installing</h3>
     			<h4 class="subheader">Subheader</h4>
     			
     			<h4>Intro</h4>
@@ -39,7 +39,7 @@
 			
 			<dl class="tabs vertical hide-on-phones">
 				<dd><a href="index.php">Getting Started</a></dd>
-				<dd><a href="installing.php">Installing</a></dd>
+				<dd><a href="installing.php" class="active">Installing</a></dd>
 				<dd><a href="grid.php">The Grid</a></dd>
 				<dd><a href="typography.php">Typography</a></dd>
 				<dd><a href="buttons.php">Buttons</a></dd>
@@ -47,7 +47,7 @@
 				<dd><a href="navigation.php">Navigation</a></dd>
 				<dd><a href="tabs.php">Tabs</a></dd>
 				<dd><a href="elements.php">Elements</a></dd>
-				<dd><a href="orbit.php" class="active">Orbit</a></dd>
+				<dd><a href="orbit.php">Orbit</a></dd>
 				<dd><a href="reveal.php">Reveal</a></dd>
 				<dd><a href="support.php">Support</a></dd>
 			</dl>
