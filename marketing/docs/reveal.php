@@ -5,16 +5,38 @@
 		<section role="main">
 		  <div class="row">
 		    <div class="eight columns">
-    			<h3>Reveal</h3>
-    			<h4 class="subheader">Subheader</h4>
+    			<h3>Reveal &mdash; Simple, Flexible Modal Dialogs</h3>
+    			<h4 class="subheader">Modal dialogs, or pop-up windows, are handy for prototyping and production. Foundation includes Reveal our jQuery modal plugin, to make this easy for you.</h4>
     			
-    			<h4>Intro</h4>
-  				<p>Intro text.</p>
+  				<p><a href="#" data-reveal-id="exampleModal" class="radius button">Example Modal&hellip;</a></p>
   				
   				<hr />
   				
-  				<h4>Section</h4>
-  				<p>Description.</p>    			
+  				<h4>Using Reveal</h4>
+  				<p>Reveal is a cinch to hook up - just include the JS and CSS. You can either call it in the JS or include a "data-reveal-id" parameter. If you need detailed steps check out the <a href="http://www.zurb.com/playground/reveal-modal-plugin">playground for Reveal</a>, but here are the steps to get it started:</p>
+  				<ol>
+  					<li>The markup is very simple. <strong>Remember:</strong> your modal should be at the end of the page, after any of your rows or columns.<br /><br />
+  					<script src="https://gist.github.com/2955944.js?file=f3-reveal-example.html"></script>
+  					
+  					</li>
+  					<li>
+  			   		<p>Activate Reveal...but there are two ways to do this glorious action. The first is to attach a handler to something (button most likely) then call Reveal:</p>
+  						<script src="https://gist.github.com/2955951.js?file=f3-reveal.html"></script>
+  						
+  						<p><strong>OR</strong> the new hotness option is to just add a data-reveal-id to the object which you want to fire the modal when clicked...<br /></p>
+  						<script src="https://gist.github.com/2955957.js?file=f3-reveal-id.html"></script>
+  						<p>This will launch the modal with the ID "myModal2" without attaching a handler or calling the plugin (since the plugin is always listening for this). You can also pass any of the parameters simply by putting a data-nameOfParameter="value" (i.e. data-animation="fade")</p>
+  					</li>
+  				</ol>
+  				
+  				<hr />	
+  				
+  				<h4>Options</h4>
+  				<script src="https://gist.github.com/2956001.js?file=f3-reveal-options.js"></script>
+  				
+  				<p>Options can be used on the "data-reveal-id" implementation too, just do it like this:</p>
+  				
+  				<script src="https://gist.github.com/2956006.js?file=f3-reveal-data-options.html"></script>   			
     			
     		</div>
     		<div class="four columns">
@@ -43,5 +65,18 @@
 		</section>
 	</div>
 		
+	<div id="exampleModal" class="reveal-modal">
+    <h2>This is a modal.</h2>
+    <p>Reveal makes these very easy to summon and dismiss. The close button is simple an anchor with a unicode character icon and a class of <code>close-reveal-modal</code>. Clicking anywhere outside the modal will also dismiss it.</p>
+    <p>Finally, if your modal summons another Reveal modal, the plugin will handle that for you gracefully.</p>
+    <p><a href="#" data-reveal-id="secondModal" class="secondary button">Second Modal&hellip;</a></p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
+  
+  <div id="secondModal" class="reveal-modal">
+    <h2>This is a second modal.</h2>
+    <p>See? It just slides into place after the other first modal. Very handy when you need subsequent dialogs, or when a modal option impacts or requires another decision.</p>
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 		
 <?php include("includes/_documentation_foot.php");  ?>
