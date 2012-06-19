@@ -28,6 +28,12 @@
   				
   				<hr />
   				
+  				<h4>Technical Details</h4>
+  				<p>The Foundation 3 Grid, like everything else in Foundation 3, is built with <code>box-sizing: border-box</code>, a powerful CSS property that tells the browser to consider border and padding as part of the width of an object rather than as an addition. That enables us to construct the grid extremely simply, good news for anyone who lamented how difficult it was to modify the Foundation 2 grid.</p>
+  				<p>Now, gutters are created simply with padding on the columns, meaning columns have simple widths like 25%, or 50%. Adjusting the padding adjusts the gutters, and this can be controlled either through SCSS variables, the download customizer, or through the CSS itself.</p>
+  				
+  				<hr />
+  				
   				<h4>Nesting Support</h4>
   				<p>The grid allows for nesting down as far as you'd like, though at a certain point it will get absurd. You can use this nesting to create quite complex layouts, as well as some other tricks like form layouts or visual elements.</p>
   				<script src="https://gist.github.com/2951188.js"> </script>

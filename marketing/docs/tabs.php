@@ -17,7 +17,7 @@
 		<section role="main">
 		  <div class="row">
 		    <div class="eight columns">
-    			<h3>Orbit</h3>
+    			<h3>Tabs</h3>
     			<h4 class="subheader">Subheader</h4>
     			
     			<h4>Intro</h4>
@@ -45,9 +45,9 @@
 				<dd><a href="buttons.php">Buttons</a></dd>
 				<dd><a href="forms.php">Forms</a></dd>
 				<dd><a href="navigation.php">Navigation</a></dd>
-				<dd><a href="tabs.php">Tabs</a></dd>
+				<dd><a href="tabs.php" class="active">Tabs</a></dd>
 				<dd><a href="elements.php">Elements</a></dd>
-				<dd><a href="orbit.php" class="active">Orbit</a></dd>
+				<dd><a href="orbit.php">Orbit</a></dd>
 				<dd><a href="reveal.php">Reveal</a></dd>
 				<dd><a href="support.php">Support</a></dd>
 			</dl>

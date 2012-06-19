@@ -16,11 +16,17 @@ header .subheader { position: relative; top: -18px; }
 .row.display { background: #f4f4f4; margin-bottom: 10px; }
 .row.display .column, .row.display .columns { background: #e7e7e7; border: 1px solid #ddd; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; }
 
-.gist .gist-file { border-radius: 2px; }
-.gist .gist-file .gist-data { background: #fff !important; border-radius: 2px; }
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5 { font-family: "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; }
+
+.gist .gist-file { border-radius: 3px; }
+.gist .gist-file .gist-data { background: #f9f9f9 !important; border-radius: 3px; }
 .gist-data pre { font-size: 13px; font-size: 1.3rem; line-height: 18px; }
 .gist .gist-file .gist-data { border-bottom: none !important; }
-.gist .gist-file .gist-meta { background: #fff !important; border: none !important; color: #ccc !important; }
+.gist .gist-file .gist-meta { background: #fff !important; border: none !important; color: #ccc !important; padding-top: 11px !important; }
 .gist .gist-file .gist-meta a { color: #999 !important; }
 .gist .gist-file .gist-meta a:hover { text-decoration: underline; }
 

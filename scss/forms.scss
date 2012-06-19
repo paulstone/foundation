@@ -27,7 +27,7 @@
   
   label { color: lighten($black, 30%); cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px; 
     
-    .right { float: none; text-align: right; }
+    &.right { float: none; text-align: right; padding-top: ($formSpacing / 2); }
   }
   
   .prefix, .postfix { display: block; position: relative; z-index: 2; text-align: center; width: 100%; padding-top: 0; padding-bottom: 0; height: 30px; line-height: 30px;  }

@@ -12,7 +12,7 @@ form { margin: 0 0 19.416px; }
 .row form .row.collapse .column, .row form .row.collapse .columns { padding: 0; }
 
 label { color: #4d4d4d; cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px; }
-label .right { float: none; text-align: right; }
+label.right { float: none; text-align: right; padding-top: 6px; }
 
 .prefix, .postfix { display: block; position: relative; z-index: 2; text-align: center; width: 100%; padding-top: 0; padding-bottom: 0; height: 30px; line-height: 30px; }
 
