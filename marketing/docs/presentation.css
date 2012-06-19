@@ -81,7 +81,7 @@ header .subheader { position: relative; top: -18px; }
 
 /* ZURBjobs */
 
-.jobs { border: 1px solid #eee; padding: 20px; }
+.jobs { border: 1px solid #eee; padding: 10px 20px 20px; }
 .jobs .location { display: block; color: #555; }
 .jobs ul { margin-bottom: 0px; }
 .jobs ul li { list-style: none; margin-bottom: 12px; }
