@@ -23,8 +23,8 @@
   $screen-medium: 1280px;
   $screen-large: 1441;
 
-  $media-small: "only screen and (max-width: 768px)";
-  $media-medium: "only screen and (max-width: 1280px) and (min-width: 600px)";
+  $media-small: "only screen and (max-width: 767px)";
+  $media-medium: "only screen and (max-width: 1280px) and (min-width: 768px)";
   $media-xlarge: "only screen and (max-width: 1441px)";
   $media-landscape: "screen and (orientation: landscape)";
   $media-portrait: "screen and (orientation: portrait)";

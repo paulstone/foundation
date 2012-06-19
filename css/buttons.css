@@ -43,7 +43,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 
 /* Buttons with Dropdowns ---------------------- */
 .button.dropdown { position: relative; }
-.button.dropdown > span { width: 12px; height: 12px; background: url('../images/misc/dropdown-button-nub.png?1338934587') no-repeat; display: inline-block; margin-left: 6px; }
+.button.dropdown > span { width: 12px; height: 12px; background: url('../images/misc/dropdown-button-nub.png?1339520913') no-repeat; display: inline-block; margin-left: 6px; }
 .button.dropdown > ul { display: none; position: absolute; top: 34px; left: -1px; background: #fff; list-style: none; margin: 0; padding: 0; border: 1px solid #ddd; min-width: 100%; }
 .button.dropdown > ul li { margin: 0; padding: 0; background: none; list-style: none; }
 .button.dropdown > ul li a { display: block; color: #777; font-size: 14px; font-weight: normal; padding: 6px 6px; text-align: left; }
