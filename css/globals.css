@@ -12,11 +12,11 @@ html { font-size: 62.5%; }
 body { background: white; font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif; font-size: 14px; font-size: 1.4rem; line-height: 1; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
 
 /* Links ---------------------- */
-a { color: #0593dc; text-decoration: none; line-height: inherit; }
+a { color: #2ba6cb; text-decoration: none; line-height: inherit; }
 
-a:hover { color: #0482c3; }
+a:hover { color: #2795b6; }
 
-a:focus { color: #0593dc; outline: none; }
+a:focus { color: #2ba6cb; outline: none; }
 
 p a, p a:visited { line-height: inherit; }
 
