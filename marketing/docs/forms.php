@@ -125,7 +125,7 @@
           </div>
           <script src="https://gist.github.com/2954955.js?file=f3-prefix-form.html"></script>
           
-          <label>Input with a postfix character</label>
+          <label>Input with a postfix label</label>
           <div class="row">
             <div class="five columns">
               <div class="row collapse">
