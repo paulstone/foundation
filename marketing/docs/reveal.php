@@ -81,7 +81,24 @@
 		<p class="lead">Yeah it's just the best.</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
 		<a class="close-reveal-modal">&#215;</a>
+		<a id="showModal2" class="nice radius button">Next</a>
+		<a href="" class="nice radius button">This is a Button</a>
+	</div>
+	
+	<div id="testModal2" class="reveal-modal">
+		<h2>Awww yeah, modal dialog!</h2>
+		<p class="lead">Yeah it's just the best.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
 		<a href="" class="nice radius button">This is a Button</a>
 	</div>
 	
 <?php include("includes/_documentation_foot.php");  ?>
+
+<script type="text/javascript">
+ $(function() {
+   $("#showModal2").on("click", function(event){
+     $("#testModal2").reveal();
+   });
+ });
+</script>
