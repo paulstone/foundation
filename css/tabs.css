@@ -18,8 +18,8 @@ dl.tabs.vertical { height: auto; border-bottom: 1px solid #e6e6e6; }
 dl.tabs.vertical dt, dl.tabs.vertical dd { float: none; height: auto; }
 dl.tabs.vertical dd { border-left: 3px solid #cccccc; }
 dl.tabs.vertical dd a { background: #f2f2f2; border: none; border: 1px solid #e6e6e6; border-width: 1px 1px 0 0; color: #555; display: block; font-size: 14px; height: auto; line-height: 1; padding: 15px 20px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
-dl.tabs.vertical dd a.active { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 dl.tabs.vertical dd.active { border-top: none; border-left: 4px solid #1a1a1a; }
+dl.tabs.vertical dd.active a { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 dl.tabs.vertical dd:first-child a.active { margin: 0; }
 dl.tabs.two-up dt a, dl.tabs.two-up dd a, dl.tabs.three-up dt a, dl.tabs.three-up dd a, dl.tabs.four-up dt a, dl.tabs.four-up dd a, dl.tabs.five-up dt a, dl.tabs.five-up dd a { padding: 0 17px; text-align: center; overflow: hidden; }
 dl.tabs.two-up dt, dl.tabs.two-up dd { width: 50%; }

@@ -20,7 +20,6 @@
     dd { display: block; float: left; padding: 0; margin: 0;
       a { color: lighten($txtColor, 30%); display: block; font-size: ms(0); height: $tabHeight; line-height: $tabHeight; padding: 0px ms(1) * 1.4; }
       &.active { border-top: 3px solid $mainColor; margin-top: -3px;
-
         a { color: lighten($txtColor, 10%); background: #fff; border-left: 1px solid darken($white, 10%); border-right: 1px solid darken($white, 10%); font-weight: bold; }
       }
       &:first-child { margin-left: 0; }
@@ -31,9 +30,10 @@
 
       dd { border-left: 3px solid darken($white, 20%);
         a { background: darken($white, 5%); border: none; border: 1px solid darken($white, 10%); border-width: 1px 1px 0 0; color: #555; display: block; font-size: ms(0); height: auto; line-height: 1; padding: 15px 20px; @include box-shadow(0 1px 0 $shinyEdge inset);
-          &.active { background: lighten($black, 30%); border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; @include box-shadow(0 0 0); }
         }
-        &.active { border-top: none; border-left: 4px solid lighten($black, 10%); }
+        &.active { border-top: none; border-left: 4px solid lighten($black, 10%);
+          a { background: lighten($black, 30%); border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; @include box-shadow(0 0 0); }
+        }
         &:first-child a.active { margin: 0; }
       }
     }

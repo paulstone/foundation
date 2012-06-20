@@ -6,8 +6,8 @@ jQuery(document).ready(function ($) {
   /* Remove if you don't need :) */
 
 	function activateTab($tab) {
-		var $activeTab = $tab.closest('dl').find('a.active'),
-				contentLocation = $tab.attr("href") + 'Tab';
+		var $activeTab = $tab.closest('dl').find('dd.active'),
+				contentLocation = $tab.children('a').attr("href") + 'Tab';
 
 		// Strip off the current url that IE adds
 		contentLocation = contentLocation.replace(/^.+#/, '#');
@@ -16,8 +16,8 @@ jQuery(document).ready(function ($) {
     contentLocation = contentLocation.replace(/^.+#/, '#');
 
     //Make Tab Active
-    $activeTab.removeClass('active').parent('dd').removeClass('active');
-    $tab.addClass('active').parent('dd').addClass('active');
+    $activeTab.removeClass('active');
+    $tab.addClass('active');
 
     //Show Tab Content
     $(contentLocation).closest('.tabs-content').children('li').hide();
@@ -25,7 +25,7 @@ jQuery(document).ready(function ($) {
   }
 
   $('dl.tabs dd a').live('click', function (event) {
-    activateTab($(this));
+    activateTab($(this).parent('dd'));
   });
 
   if (window.location.hash) {

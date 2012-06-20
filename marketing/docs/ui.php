@@ -124,7 +124,7 @@
 				<p><em>Note: To make your tabs fill the entire space of the container, add a class of <strong>.two-up</strong>, <strong>.three-up</strong>, <strong>.four-up</strong>, <strong>.five-up</strong></em></p>
 				<h5>Simple Tabs</h5>
 				<dl class="tabs">
-					<dd class="active"><a class="active" href="#simple1">Simple Tab 1</a></dd>
+					<dd class="active"><a href="#simple1">Simple Tab 1</a></dd>
 					<dd><a href="#simple2">Simple Tab 2</a></dd>
 					<dd class="hide-on-phones"><a href="#simple3">Simple Tab 3</a></dd>
 				</dl>
@@ -143,7 +143,7 @@
 
 				<dl class="tabs contained">
 					<dt>Title 1</dt>
-					<dd class="active"><a class="active" href="#simpleContained1">Simple Tab 1</a></dd>
+					<dd class="active"><a href="#simpleContained1">Simple Tab 1</a></dd>
 					<dd><a href="#simpleContained2">Simple Tab 2</a></dd>
 					<dt>Title 1</dt>
 					<dd class="hide-on-phones"><a href="#simpleContained3">Simple Tab 3</a></dd>
@@ -160,7 +160,7 @@
 				<p>You can also use tabs in a vertical configuration by adding a class of 'vertical' to the DL element. These are great for more scalable nav, and you can see how they work on this page on a tablet or desktop.</p>
 
 				<dl class="nice vertical tabs">
-					<dd><a href="#vertical1" class="active">Vertical Tab 1</a></dd>
+					<dd class="active"><a href="#vertical1">Vertical Tab 1</a></dd>
 					<dd><a href="#vertical2">Vertical Tab 2</a></dd>
 					<dd><a href="#vertical3">Vertical Tab 3</a></dd>
 				</dl>
