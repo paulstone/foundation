@@ -130,21 +130,23 @@ div.orbit-wrapper div.slider-nav {
   display: block }
 
 div.orbit-wrapper div.slider-nav span {
-  width: 78px;
-  height: 100px;
+  width: 39px;
+  height: 50px;
   text-indent: -9999px;
   position: absolute;
   z-index: 30;
   top: 50%;
-  margin-top: -50px;
+  margin-top: -25px;
   cursor: pointer; }
 
 div.orbit-wrapper div.slider-nav span.right {
   background: url(../images/orbit/right-arrow.png);
+  background-size: 100%;
   right: 0; }
 
 div.orbit-wrapper div.slider-nav span.left {
   background: url(../images/orbit/left-arrow.png);
+  background-size: 100%;
   left: 0; }
 
 /* BULLET NAV
@@ -228,5 +230,5 @@ ul.orbit-bullets li.active.has-thumb {
 
 
 /* Correct timer in IE */
-  .timer { display: none !important; }
-  div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+  .lt-ie9 .timer { display: none !important; }
+  .lt-ie9 div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
