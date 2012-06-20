@@ -1,17 +1,5 @@
 <? $page_title = "Rapid Prototyping and Building Framework from ZURB" ?>
-<?php include("includes/_documentation_head.php"); ?>
-
-	<header id="header" class="row">	
-	  <div class="eight columns phone-three">
-	    <h1><a href="index.php">Foundation 3 Documentation</a></h1>
-	    <h4 class="subheader">Everything you need to know to build for the future.</h4>
-	  </div>
-	  <div class="four columns phone-one">
-			<p class="show-for-small">
-			  <a class='sidebar-button button' id='sidebarButton' href="#sidebar" >Menu</a>
-			</p>
-	  </div>	
-	</header>	
+<?php include("includes/_documentation_head.php"); ?>	
 	
 	<div class="row">	
 		<section role="main">

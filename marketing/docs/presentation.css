@@ -30,6 +30,30 @@ header .subheader { position: relative; top: -18px; }
 .gist .gist-file .gist-meta a { color: #999 !important; }
 .gist .gist-file .gist-meta a:hover { text-decoration: underline; }
 
+.glyph { cursor: default; font-size: 16px; line-height: 1; font-family: "FoundationIconsGeneralEnclosed"; }
+.glyph.success { color: #5b8737; }
+.glyph.failure { color: #e91c21; }
+
+.row.support { margin-bottom: 11px; }
+.row.support .glyph { font-size: 18px; font-size: 1.8rem; position: relative; bottom: 5px; }
+
+#featuredContent { background: #f4f4f4; }
+#featuredContent div { background: #f4f4f4; padding: 30px 60px; }
+
+@media handheld, only screen and (max-width: 767px) {
+
+	header { border-bottom: 1px solid #ddd; position: relative; }
+	header .subheader { margin-bottom: 0; }
+	
+	header .menu-action { float: left; position: relative; top: 1px; margin-top: -12px; }
+	header .menu-action .button.small { padding: 8px; }
+	header .menu-action .button.small svg { opacity: 0.5; }
+	
+	header h1 { font-size: 27px; font-size: 2.7rem; margin-bottom: 18px; }
+	header h4 { font-size: 17px; font-size: 1.7rem; }
+}
+
+
 
 /* -----------------------------------------
    Orbit Demo CSS
@@ -85,7 +109,7 @@ header .subheader { position: relative; top: -18px; }
 .jobs .location { display: block; color: #555; }
 .jobs ul { margin-bottom: 0px; }
 .jobs ul li { list-style: none; margin-bottom: 12px; }
-.jobs h5 { font-weight: 700; margin-bottom: 10px; }
+.jobs h5 { font-weight: 600; font-size: 15px; font-size: 1.5rem; margin-bottom: 10px; }
 
 .jobs-link { font-size: 13px !important; white-space: nowrap;  text-decoration: underline; font-weight: inherit; margin-bottom: 20px;}
 .jobs-link a { color: # 555 !important;}
@@ -222,5 +246,18 @@ header .subheader { position: relative; top: -18px; }
     font-weight: bold;
     font-weight: 900;
     font-style: italic;
+
+}
+
+/* Foundation Icons General Enclosed */
+@font-face {
+    font-family: 'FoundationIconsGeneralEnclosed';
+    src: url('../fonts/foundation-icons-general-enclosed.eot');
+    src: url('../fonts/foundation-icons-general-enclosed.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/foundation-icons-general-enclosed.woff') format('woff'),
+         url('../fonts/foundation-icons-general-enclosed.ttf') format('truetype'),
+         url('../fonts/foundation-icons-general-enclosed.svg#FoundationIconsGeneralEnclosed') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
