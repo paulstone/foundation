@@ -33,7 +33,7 @@
 				<dd><a href="buttons.php">Buttons</a></dd>
 				<dd><a href="forms.php">Forms</a></dd>
 				<dd><a href="navigation.php">Navigation</a></dd>
-				<dd><a href="tabs.php" class="active">Tabs</a></dd>
+				<dd class="active"><a href="tabs.php" class="active">Tabs</a></dd>
 				<dd><a href="elements.php">Elements</a></dd>
 				<dd><a href="orbit.php">Orbit</a></dd>
 				<dd><a href="reveal.php">Reveal</a></dd>

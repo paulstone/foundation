@@ -293,7 +293,7 @@
 				<dd><a href="grid.php">The Grid</a></dd>
 				<dd><a href="typography.php">Typography</a></dd>
 				<dd><a href="buttons.php">Buttons</a></dd>
-				<dd><a href="forms.php" class="active">Forms</a></dd>
+				<dd class="active"><a href="forms.php">Forms</a></dd>
 				<dd><a href="navigation.php">Navigation</a></dd>
 				<dd><a href="tabs.php">Tabs</a></dd>
 				<dd><a href="elements.php">Elements</a></dd>

@@ -34,7 +34,7 @@
 			
 			<dl class="tabs vertical hide-on-phones">
 				<dd><a href="index.php">Getting Started</a></dd>
-				<dd><a href="installing.php" class="active">Installing</a></dd>
+				<dd class="active"><a href="installing.php">Installing</a></dd>
 				<dd><a href="grid.php">The Grid</a></dd>
 				<dd><a href="typography.php">Typography</a></dd>
 				<dd><a href="buttons.php">Buttons</a></dd>
