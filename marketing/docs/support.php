@@ -93,7 +93,7 @@
   				<p>Yes! Foundation is licensed under the MIT open source license, meaning you can do almost anything with it. The only thing you can't do is imply that Foundation itself is what you're selling.</p>
   				
   				<h5>Is Foundation tested on [some other device or browser]?</h5>
-  				<p>We try and be comprehensive in our testing, but there are thousands of devices so it's often just not feasible. We'd love to hear about Foundation's behaviour on other devices, but the list above is what we test each release on. If your browser or device is not listedm your results may vary.</p>
+  				<p>We try and be comprehensive in our testing, but there are thousands of devices so it's often just not feasible. We'd love to hear about Foundation's behaviour on other devices, but the list above is what we test each release on. If your browser or device is not listed your results may vary.</p>
   				
   				<hr />
   				
@@ -101,13 +101,13 @@
   				<p>If the documentation and questions above aren't enough, there are several avenues of support available.</p>
   				
   				<h5><a href="https://groups.google.com/forum/?fromgroups#!forum/foundation-framework-">Foundation Framework Google Group</a></h5>
-  				<p>This is an active group of Foundation users who can answer questions about implementation or approach. If you aren't sure how to do something, or something isn't working like you'd expect. reach out here.</p>
+  				<p>This is an active group of Foundation users who can answer questions about implementation or approach. If you aren't sure how to do something, or something isn't working like you'd expect, reach out here.</p>
   				
   				<h5><a href="http://github.com/zurb/foundation/issues">Github Issues</a></h5>
-  				<p>If you've found a bug in the framework (or think you have) you can file it here. We try and address these as part of ongoing development. Please use this only for bugs or things that seem incorrect, support requests will not be addresses quickly here.</p>
+  				<p>If you've found a bug in the framework (or think you have) you can file it here. We try and address these as part of ongoing development. Please use this only for bugs or things that seem incorrect, support requests will not be addressed quickly here.</p>
   				
   				<h5><a href="mailto:foundation@zurb.com">Get in Touch</a></h5>
-  				<p>If you're totally stuckand need some help, shoot us an email and we'll typically get back within a couple days.</p>
+  				<p>If you're totally stuck and need some help, shoot us an email and we'll typically get back within a day or two.</p>
     			
     		</div>
     		<div class="four columns">
