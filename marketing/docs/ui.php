@@ -44,13 +44,13 @@
 					<a href="" class="close">&times;</a>
 				</div>
 
-				<div class="alert-box warning">
-					This is a warning alert (div.alert-box.warning).
+				<div class="alert-box alert">
+					This is an alert (div.alert-box.alert).
 					<a href="" class="close">&times;</a>
 				</div>
 
-				<div class="alert-box error">
-					This is an error alert (div.alert-box.error).
+				<div class="alert-box secondary">
+					This is a secondary alert (div.alert-box.secondary).
 					<a href="" class="close">&times;</a>
 				</div>
 
@@ -73,11 +73,9 @@
 					</div>
 					<div class="three columns phone-two">
 						<p>
-							<span class="blue radius label">Blue Label</span><br /><br />
-							<span class="red radius label">Red Label</span><br /><br />
-							<span class="black radius label">Black Label</span><br /><br />
-							<span class="green radius label">Green Label</span><br /><br />
-							<span class="white radius label">White Label</span>
+							<span class="secondary radius label">Blue Label</span><br /><br />
+							<span class="alert label">Red Label</span><br /><br />
+							<span class="success round label">Black Label</span><br /><br />
 						</p>
 					</div>
 				</div>
@@ -101,6 +99,11 @@
 				<p>A panel is a simple, helpful css class that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section (for example the download box on the right).</p>
 
 				<div class="panel">
+					<h5>My panel is bigger than yours.</h5>
+					<p>Seriously, just look at this sweet panel.</p>
+				</div>
+
+				<div class="panel callout radius">
 					<h5>My panel is bigger than yours.</h5>
 					<p>Seriously, just look at this sweet panel.</p>
 				</div>
@@ -183,7 +186,6 @@
 					<li class="active"><a href="#" class="main">Nav Item 1</a></li>
 					<li class="has-flyout">
 						<a href="#" class="main">Nav Item 2</a>
-						<a href="#" class="flyout-toggle"><span> </span></a>
 						<div class="flyout small">
 							<h5>Small Example (200px)</h5>
 							<p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. </p>
@@ -191,7 +193,6 @@
 					</li>
 					<li class="has-flyout">
 						<a href="#" class="main">Nav Item 3</a>
-						<a href="#" class="flyout-toggle"><span> </span></a>
 						<div class="flyout">
 		        	<div class="row">
 		         		<div class="twelve columns">
@@ -209,7 +210,6 @@
 					</li>
 					<li class="has-flyout hide-on-tablets">
 						<a href="#" class="main">Nav Item 4</a>
-						<a href="#" class="flyout-toggle"><span> </span></a>
 						<div class="flyout large right">
 				        	<div class="row">
 				        		<div class="twelve columns">
@@ -240,15 +240,12 @@
       			<ul class="nav-bar">
       				<li><input type="search" /></li>
       				<li class="has-flyout">
-	      				<a href="" class="main">Nav Element</a>
-	      				<a href="http://www.zurb.com" class="flyout-toggle"><span> </span></a>
-      					<div class="flyout">
-      						<ul>
-      							<li><a href="">This is a link in a UL.</a></li>
-      							<li><a href="">This is a link in a UL.</a></li>
-      							<li><a href="">This is a link in a UL.</a></li>
-      						</ul>
-      					</div>
+	      				<a href="#" class="main">Nav Element</a>
+      					<ul class="flyout">
+      						<li><a href="">This is a link in a UL.</a></li>
+      						<li><a href="">This is a link in a UL.</a></li>
+      						<li><a href="">This is a link in a UL.</a></li>
+      					</ul>
       				</li>
       			</ul>
 
@@ -274,7 +271,7 @@
 				<p>Breaking stuff up into pages? Yeah you are. Here's some pagination to get you started.</p>
 
 				<ul class="pagination">
-					<li class="unavailable"><a href="">&laquo;</a></li>
+					<li class="arrow unavailable"><a href="">&laquo;</a></li>
 					<li class="current"><a href="">1</a></li>
 					<li><a href="">2</a></li>
 					<li><a href="">3</a></li>
@@ -282,7 +279,7 @@
 					<li class="unavailable"><a href="">&hellip;</a></li>
 					<li><a href="">12</a></li>
 					<li><a href="">13</a></li>
-					<li><a href="">&raquo;</a></li>
+					<li class="arrow"><a href="">&raquo;</a></li>
 				</ul>
 
 				<script src="http://snipt.net/embed/724214a9eba6436e1565fc748693e61b"></script>
@@ -358,7 +355,7 @@
 				<p>If you're embedding video from YouTube, Vimeo, or another site that uses iframe, embed or object elements you can wrap your video in <code>div.flex-video</code> to create an intrinsic ratio that will properly scale your video on any device.</p>
 
 				<dl class="tabs contained">
-					<dd><a href="#video1" class="active">4:3</a></dd>
+					<dd class="active"><a href="#video1">4:3</a></dd>
 					<dd><a href="#video2">Widescreen</a></dd>
 					<dd><a href="#video3">Vimeo</a></dd>
 				</dl>

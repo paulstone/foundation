@@ -41,11 +41,11 @@ fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 
 .form-field input[type=radio], div.form-field input[type=checkbox] { display: inline; width: auto; margin-bottom: 0; }
 
 /* Errors */
-.form-field.error input, input.input-text.alert { border-color: #e91c21; background-color: rgba(255, 0, 0, 0.15); }
+.form-field.error input, input.input-text.alert { border-color: #c60f13; background-color: rgba(255, 0, 0, 0.15); }
 
-.form-field.error label, label.alert { color: #e91c21; }
+.form-field.error label, label.alert { color: #c60f13; }
 
-.form-field.error small, small.error { padding: 6px 4px; border: solid 0 #C00000; border-width: 0 1px 1px 1px; margin-top: -10px; background: #e91c21; color: #fff; font-size: 12px; font-size: 1.2rem; font-weight: bold; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-bottomleft: 2px; -moz-border-radius-bottomright: 2px; display: block; margin-bottom: 9px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+.form-field.error small, small.error { padding: 6px 4px; border: solid 0 #C00000; border-width: 0 1px 1px 1px; margin-top: -10px; background: #c60f13; color: #fff; font-size: 12px; font-size: 1.2rem; font-weight: bold; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-bottomleft: 2px; -moz-border-radius-bottomright: 2px; display: block; margin-bottom: 9px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
 
 /* ----------------------------------------- Custom Forms
 ----------------------------------------- */

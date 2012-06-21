@@ -2,18 +2,19 @@
 /* Foundation 3, artfully masterminded by ZURB Core navbar.css - Relatively simple nav bars with single level dropdowns
  Requires: globals.css
 */
-.nav-bar { height: 40px; background: #4d4d4d; margin-top: 20px; padding: 0; border: 1px solid #404040; }
-.nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0; border-right: 1px solid #333333; line-height: 38px; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
+.nav-bar { height: 40px; background: #4d4d4d; margin-top: 20px; padding: 0; }
+.nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0; border: 1px solid #333333; border-right: none; line-height: 38px; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
 .nav-bar > li:first-child { -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
-.nav-bar > li:last-child { -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
-.nav-bar > li.active { background: #2ba6cb; }
-.nav-bar > li.active a { color: white; }
+.nav-bar > li:last-child { border-right: solid 1px #333333; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
+.nav-bar > li.active { background: #2ba6cb; border-color: #2284a1; }
+.nav-bar > li.active a { color: white; cursor: default; }
+.nav-bar > li.active:hover { background: #2ba6cb; cursor: default; }
+.nav-bar > li:hover { background: #333333; }
 .nav-bar > li a { color: #e6e6e6; }
 .nav-bar > li ul { margin-bottom: 0; }
 .nav-bar > li .flyout { display: none; }
-.nav-bar > li.has-flyout > a.main { padding-right: 36px; }
-.nav-bar > li.has-flyout > a.flyout-toggle { position: absolute; right: 0; top: 0; padding: 20px; padding-top: 18px; z-index: 2; display: block; }
-.nav-bar > li.has-flyout > a.flyout-toggle span { display: block; content: ""; width: 0; height: 0; border: 4px solid; border-color: #e6e6e6 transparent transparent transparent; }
+.nav-bar > li.has-flyout > a.main { padding-right: 36px; position: relative; }
+.nav-bar > li.has-flyout > a.main:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: #e6e6e6 transparent transparent transparent; position: absolute; right: 20px; top: 17px; }
 .nav-bar > li > a.main { position: relative; padding: 0 20px; display: block; text-decoration: none; font-size: 14px; }
 .nav-bar > li > input { margin: 0 10px; }
 
