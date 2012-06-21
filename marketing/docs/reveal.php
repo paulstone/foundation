@@ -13,7 +13,7 @@
   				<hr />
   				
   				<h4>Using Reveal</h4>
-  				<p>Reveal is easy to hook up. Include the JS and CSS (both of which are included in foundation.css and foundation.js, if you use the downloaded code pack). You can either call it in the JS or include a "data-reveal-id" parameter. If you need detailed steps check out the <a href="http://www.zurb.com/playground/reveal-modal-plugin">playground for Reveal</a>, but here are the steps to get started:</p>
+  				<p>Reveal is easy to hook up. Include the JS and CSS (both of which are included in foundation.css and foundation.js, if you use the downloaded code pack). You can either call it in the JS or include a "data-reveal-id" parameter. Here are the steps to get started:</p>
   				
 				  <h5>Markup</h5>
 					<p><strong>Remember:</strong> your modal should be at the end of the page, after any of your rows or columns.</p>
@@ -28,7 +28,7 @@
 					
 					<p>This will launch the modal with the ID "myModal2" without attaching a handler or calling the plugin (since the plugin is always listening for this). You can also pass any of the parameters simply by putting a data-nameOfParameter="value" (i.e. data-animation="fade")</p>
   				
-  				<hr />	
+  				<hr />
   				
   				<h4>Options</h4>
   				<script src="https://gist.github.com/2956001.js?file=f3-reveal-options.js"></script>
