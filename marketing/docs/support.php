@@ -130,7 +130,7 @@
 				<dd><a href="elements.php">Elements</a></dd>
 				<dd><a href="orbit.php">Orbit</a></dd>
 				<dd><a href="reveal.php">Reveal</a></dd>
-				<dd><a href="support.php" class="active">Support</a></dd>
+				<dd class="active"><a href="support.php">Support</a></dd>
 			</dl>
 			
 		</section>

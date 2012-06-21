@@ -114,7 +114,7 @@
 					<dd><a href="grid.php">Grid</a></dd>
 					<dd><a href="buttons.php">Buttons</a></dd>
 					<dd><a href="forms.php">Forms</a></dd>
-					<dd><a href="layout.php" class="active">Layout</a></dd>
+					<dd class="active"><a href="layout.php">Layout</a></dd>
 					<dd><a href="ui.php">UI</a></dd>
 					<dd><a href="orbit.php">Orbit</a></dd>
 					<dd><a href="reveal.php">Reveal</a></dd>

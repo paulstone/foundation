@@ -99,7 +99,7 @@
 				<dd><a href="navigation.php">Navigation</a></dd>
 				<dd><a href="tabs.php">Tabs</a></dd>
 				<dd><a href="elements.php">Elements</a></dd>
-				<dd><a href="orbit.php" class="active">Orbit</a></dd>
+				<dd class="active"><a href="orbit.php">Orbit</a></dd>
 				<dd><a href="reveal.php">Reveal</a></dd>
 				<dd><a href="support.php">Support</a></dd>
 			</dl>

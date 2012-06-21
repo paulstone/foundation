@@ -58,7 +58,7 @@
 		<section id="sidebar" role="complementary">
 			
 			<dl class="tabs vertical hide-on-phones">
-				<dd><a href="index.php" class="active">Getting Started</a></dd>
+				<dd class="active"><a href="index.php">Getting Started</a></dd>
 				<dd><a href="installing.php">Installing</a></dd>
 				<dd><a href="grid.php">The Grid</a></dd>
 				<dd><a href="typography.php">Typography</a></dd>
