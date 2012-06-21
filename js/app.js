@@ -112,6 +112,16 @@ jQuery(document).ready(function ($) {
   $('body, html').click(function() {
     $('.button.dropdown ul').removeClass('show-dropdown');
   });
+  // Positioning the Flyout List
+  var normalButtonHeight  = $('.button.dropdown:not(.large):not(.small):not(.tiny)').outerHeight() - 1,
+      largeButtonHeight   = $('.button.large.dropdown').outerHeight() - 1,
+      smallButtonHeight   = $('.button.small.dropdown').outerHeight() - 1,
+      tinyButtonHeight    = $('.button.tiny.dropdown').outerHeight() - 1;
+
+  $('.button.dropdown:not(.large):not(.small):not(.tiny) > ul').css('top', normalButtonHeight);
+  $('.button.dropdown.large > ul').css('top', largeButtonHeight);
+  $('.button.dropdown.small > ul').css('top', smallButtonHeight);
+  $('.button.dropdown.tiny > ul').css('top', tinyButtonHeight);
 
   /* REQUIRED CSS CHANGES
   .button.dropdown:hover > ul.no-hover {

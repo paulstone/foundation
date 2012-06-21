@@ -6,15 +6,11 @@
   @import "base";
 
   // Button Mixins
-  $btnBase: 10px;
+  $btnBase: 15px;
 
   $tinyBtnBase: $btnBase - 5;
   $smallBtnBase: $btnBase - 3;
   $largeBtnBase: $btnBase + 5;
-  $tinyBtnFlyPos: $tinyBtnBase + ($tinyBtnBase * 2) + 7;
-  $smallBtnFlyPos: $smallBtnBase + ($smallBtnBase * 2) + 6;
-  $btnFlyPos: $btnBase + ($btnBase * 2) + 6;
-  $largeBtnFlyPos: $largeBtnBase + ($largeBtnBase * 2) + 4;
 
 /* Normal Buttons ---------------------- */
 
@@ -91,15 +87,12 @@
     &.tiny:after { @include css-triangle(4px, #fff, top); margin-top: -1px; right: $tinyBtnBase * 2; }
 
     /* Flyout List */
-    &>ul { display: none; position: absolute; top: $btnFlyPos; left: 0px; background: #fff; list-style: none; margin: 0; padding: 0; border: 1px solid #ddd; min-width: 100%; z-index: 40;
+    &>ul { @include box-sizing(content-box); display: none; position: absolute; left: -1px; background: #fff; list-style: none; margin: 0; padding: 0; border: 1px solid #ddd; border-top: none; min-width: 100%; width: 100%; z-index: 40;
 
       li { margin: 0; padding: 0; background: none; list-style: none; }
       li a { display: block; color: #777; font-size: ms(0); font-weight: normal; padding: 6px 6px; text-align: left; }
       li.divider { border-top: darken($white, 10%); margin: 0; }
     }
-    &.large>ul { top: $largeBtnFlyPos; }
-    &.small>ul { top: $smallBtnFlyPos; }
-    &.tiny>ul { top: $tinyBtnFlyPos; }
 
     ul.no-hover.show-dropdown { display: block; }
 
