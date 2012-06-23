@@ -65,7 +65,7 @@
             <script src="https://gist.github.com/2960437.js?file=f3-orbit-content.html"></script>
           </p>
           
-          <p><strong>Note:</strong> We put some simple styles on our content slider, notably a blackground and padding on the <code>div</code> elements. Orbit stacks your slides, so transparent slides will will be visible on top of each other.</p>
+          <p><strong>Note:</strong> We put some simple styles on our content slider, notably a background and padding on the <code>div</code> elements. Orbit stacks your slides, so transparent slides will will be visible on top of each other.</p>
           
           <hr />
           
