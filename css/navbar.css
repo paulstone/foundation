@@ -13,9 +13,9 @@
 .nav-bar > li a { color: #e6e6e6; }
 .nav-bar > li ul { margin-bottom: 0; }
 .nav-bar > li .flyout { display: none; }
-.nav-bar > li.has-flyout > a.main { padding-right: 36px; position: relative; }
-.nav-bar > li.has-flyout > a.main:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: #e6e6e6 transparent transparent transparent; position: absolute; right: 20px; top: 17px; }
-.nav-bar > li > a.main { position: relative; padding: 0 20px; display: block; text-decoration: none; font-size: 14px; }
+.nav-bar > li.has-flyout > a:first-child { padding-right: 36px; position: relative; }
+.nav-bar > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: #e6e6e6 transparent transparent transparent; position: absolute; right: 20px; top: 17px; }
+.nav-bar > li > a:first-child { position: relative; padding: 0 20px; display: block; text-decoration: none; font-size: 14px; }
 .nav-bar > li > input { margin: 0 10px; }
 
 .flyout { background: #f2f2f2; padding: 20px; margin: 0; border: 1px solid #d9d9d9; position: absolute; top: 39px; left: -1px; width: 250px; z-index: 40; -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* remove margin on any first-child element */ /* remove margin on last element */ }

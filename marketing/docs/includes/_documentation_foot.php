@@ -16,7 +16,7 @@
 	    
 	    <section class="four columns">
 	      <h6><strong>Need some help?</strong></h6>
-	      <p>For answers or help visit the <a href="">Foundation Forums</a>.</p>
+	      <p>For answers or help visit the <a href="support.php">Support page</a>.</p>
 	    </section>
 	  </footer>
 	  <!-- /Das Footer -->
