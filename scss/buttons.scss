@@ -55,8 +55,7 @@
     &.left-align { text-align: left; text-indent: 12px; }
 
 		/* Disabled ---------- */
-		&.disabled, &[disabled] { opacity: 0.6; cursor: default; }
-
+    &.disabled, &[disabled] { opacity: 0.6; cursor: default; background: $mainColor; @include box-shadow(none); }
 	}
 
   /* Don't use native buttons on iOS */
