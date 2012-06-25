@@ -10,6 +10,7 @@ span.glyph { font-family: "FoundationIconsGeneralEnclosed"; }
 
 
 #copyright { background: #3f3f3f; color: #fff; padding: 11px 0; margin-top: 44px; }
+#copyright a { color: #fff; }
 
 /* Homepage */
 
@@ -51,9 +52,22 @@ header#homepage .button:hover { background: #006582; }
 #github a.button { margin: 22px 0 44px; color: #3f3f3f; border: none; background: #fff; }
 #github a.button:hover { background: #eee; }
 
+#frameworkFeatures a.pic { width: 205px; height: 130px; display: block; background-repeat: none; background-size: 100% 100%; }
+#featureGrid { background-image: url(images/featureGrid.png); }
+#featurePrototype { background-image: url(images/featurePrototype.png); }
+#featureDevices { background-image: url(images/featureDevices.png); }
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  
+  #featureGrid { background-image: url(images/featureGrid-retina.png); }
+  #featurePrototype { background-image: url(images/featurePrototype-retina.png); }
+  #featureDevices { background-image: url(images/featureDevices-retina.png); }
+}
+
 #usingFoundation { background: #2ba6cb; padding: 22px 0; margin: 44px 0; }
 #usingFoundation h3, #usingFoundation a { color: #fff; }
-#usingFoundation a.top-right { position: absolute; top: 22px; right: 15px;; }
+#usingFoundation a.top-right { position: absolute; top: 22px; right: 15px; color: rgba(255,255,255,0.5); }
+#usingFoundation a.top-right:hover { text-decoration: underline; }
 #usingFoundation .block-grid li a { display: block; }
 #usingFoundation .block-grid li a img { display: block; margin: 0 auto; }
 
