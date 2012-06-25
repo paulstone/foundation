@@ -143,8 +143,22 @@
   				
   				<hr />
   				
+  				<h4>Side Nav</h4>
+  				<p>Side nav, like you'll see on the Foundation main site, is useful for sections either of a site or of the page.</p>
+  				
+          <ul class="side-nav">
+            <li class="active"><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul>
+          
+          <script src="https://gist.github.com/2990787.js?file=f3-side-nav.html"></script>
+  				
+  				<hr />
+  				
   				<h4>Sub Nav</h4>
-  				<p>This simle subnav is great for moving between different states of a page. We use these frequently to show iterations of something, typically by date, but they're also handy for these like filters.</p>
+  				<p>This simple subnav is great for moving between different states of a page. We use these frequently to show iterations of something, typically by date, but they're also handy for these like filters.</p>
   				
           <dl class="sub-nav">
           	<dt>Filter:</dt>

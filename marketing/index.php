@@ -100,18 +100,18 @@
     <div class="row">
       <div class="six columns">
         <div class="case-study">
-          <div class="pic" id="caseStudyFlite"></div>
+          <a href="case-flite.php"><img src="images/case-study-flite.png" /></a>
           
           <h4><a href="case-flite.php">Flite</a></h4>
-          <p>When online advertising tech firm Flite needed to do a redesign of its website, it knew that it had to work on any device, not just desktops.<br /><a href="case-study-flite.php">Read the case study &rarr;</a></p>
+          <p>When online advertising tech firm Flite needed to do a redesign of its website, it knew that it had to work on any device, not just desktops.<br /><a href="case-flite.php">Read the case study &rarr;</a></p>
         </div>  
       </div>
       <div class="six columns">
         <div class="case-study">
-          <div class="pic" id="caseStudySwizzle"></div>
+          <a href="case-swizzle.php"><img src="images/case-study-swizzle.png" /></a>
           
           <h4><a href="case-swizzle.php">Swizzle</a></h4>
-          <p>This sweet-looking site for online service and design agency Swizzle was built just a month after the release of Foundation, and is beautifully responsive.<br /><a href="case-study-swizzle.php">Read the case study &rarr;</a></p>
+          <p>Online service and design agency Swizzle built this site just a month after the release of Foundation, and it's beautifully responsive.<br /><a href="case-swizzle.php">Read the case study &rarr;</a></p>
         </div>  
       </div>
     </div>
@@ -119,18 +119,18 @@
     <div class="row">
       <div class="six columns">
         <div class="case-study">
-          <div class="pic" id="caseStudySoapbox"></div>
+          <a href="case-soapbox.php"><img src="images/case-study-soapbox.png" /></a>
           
           <h4><a href="case-soapbox.php">ZURBsoapbox</a></h4>
-          <p>One of the first sites built with Foundation, this site helped visitors to ZURB's speaking series learn, listen, and RSVP to events for the past several months.<br /><a href="case-study-soapbox.php">Read the case study &rarr;</a></p>
+          <p>One of the first sites built with Foundation, this site helps visitors to ZURB's speaking series learn, listen, and RSVP to events.<br /><a href="case-soapbox.php">Read the case study &rarr;</a></p>
         </div>  
       </div>
       <div class="six columns">
         <div class="case-study">
-          <div class="pic" id="caseStudyReel"></div>
+          <a href="case-reel.php"><img src="images/case-study-reel.png" /></a>
           
           <h4><a href="case-reel.php">Reel</a></h4>
-          <p>A presentation hosting Web app built by ZURB, Foundation not only drives the entire app UI, but also drives its embeddable presentations.<br /><a href="case-study-reel.php">Read the case study &rarr;</a></p>
+          <p>A presentation hosting Web app built by ZURB, Foundation not only drives the entire app UI, but also drives its embeddable presentations.<br /><a href="case-reel.php">Read the case study &rarr;</a></p>
         </div>  
       </div>
     </div>
@@ -142,7 +142,7 @@
         <h3>Sites Using Foundation</h3>
         <a href="mailto:foundation@zurb.com" class="top-right">Is your site using Foundation? Let us know!</a>
         
-        <ul class="block-grid four-up">
+        <ul class="block-grid five-up">
           <li><a href="http://projection.pixar.com/" id="usingPixar" target="_blank"><img src="images/usingPixar.png" /></a></li>
           <li><a href="http://codesign.lanl.gov/" id="usingLosAlamos" target="_blank"><img src="images/usingLosAlamos.png" /></a></li>
           <li><a href="http://www.flite.com/" id="usingFlite" target="_blank"><img src="images/usingFlite.png" /></a></li>

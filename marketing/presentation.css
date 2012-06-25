@@ -13,11 +13,21 @@ span.glyph { font-family: "FoundationIconsGeneralEnclosed"; }
 #copyright p, #copyright ul.link-list { margin-bottom: 0; }
 #copyright a { color: #fff; }
 
+.gist .gist-file { border-radius: 3px; }
+.gist .gist-file .gist-data { background: #f9f9f9 !important; border-radius: 3px; }
+.gist-data pre { font-size: 13px; font-size: 1.3rem; line-height: 18px; }
+.gist .gist-file .gist-data { border-bottom: none !important; }
+.gist .gist-file .gist-meta { background: #fff !important; border: none !important; color: #ccc !important; padding-top: 11px !important; }
+.gist .gist-file .gist-meta a { color: #999 !important; }
+.gist .gist-file .gist-meta a:hover { text-decoration: underline; }
+
+header { background-color: #2ba6cb; padding: 22px 0; }
+header h1 { color: #fff; font-weight: 500; }
+header h4 { color: #fff; font-weight: 300; }
+
 /* Homepage */
 
 header#homepage { background: url(images/device-bg.png) center bottom no-repeat #2ba6cb; padding: 22px 0 262px; }
-header#homepage h1,
-header#homepage h4 { color: #fff; font-weight: 500; text-shadow: 0px 1px 0px rgba(0,0,0,0.5); }
 header#homepage h4 { margin-bottom: 44px; }
 
 header#homepage .button { background: #137795; border: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
@@ -72,8 +82,12 @@ header#homepage .button:hover { background: #006582; }
 #usingFoundation .block-grid li a { display: block; }
 #usingFoundation .block-grid li a img { display: block; margin: 0 auto; }
 
-.case-study { background: url(images/case-study-bg.png) left bottom repeat-x #f8f8f8; padding: 8px 20px; margin-bottom: 30px; }
+.case-study { background: url(images/case-study-bg.png) left bottom repeat-x #f8f8f8; padding: 8px 20px 8px 45%; margin-bottom: 30px; position: relative; }
+.case-study img { position: absolute; width: 45%; left: 0; bottom: 0; display: block; }
 
+
+/* Secondary Pages */
+#mainContent { margin-top: 44px; margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid #eee; }
 
 
 /* Top bar */
