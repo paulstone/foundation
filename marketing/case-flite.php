@@ -36,13 +36,13 @@
             <p>Andy had Foundation up and running in a day. Then it was just a matter of building out the entire site, which took about another two weeks.</p>
           </div>
           <div class="six columns">
-            <img src="http://placehold.it/800x500" />
+            <img src="images/case-flite-1.jpg" id="sideDevice" />
           </div>
         </div>
       
         <div class="row">
           <div class="six columns">
-            
+            <img src="images/case-flite-2.png" />
           </div>
           <div class="six columns">
             <h4>Integrating Their Design with Foundation</h4>

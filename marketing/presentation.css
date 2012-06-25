@@ -87,7 +87,9 @@ header#homepage .button:hover { background: #006582; }
 
 
 /* Secondary Pages */
-#mainContent { margin-top: 44px; margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid #eee; }
+#mainContent { margin-top: 44px; margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid #eee; overflow: hidden; }
+
+#sideDevice { max-width: 240%; }
 
 
 /* Top bar */
