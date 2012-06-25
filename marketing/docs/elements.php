@@ -91,8 +91,21 @@
           </div>
   
   				<script src="https://gist.github.com/2984372.js?file=f3-panels.html"></script>
-  
-  				<hr/>
+  				
+  				<hr />
+  				
+  				<h4>Link List</h4>
+  				<p>When you just need a horizontal list of links, like in a footer, and you want more control than just spaces between them you can use this simple construct.</p>
+  				
+          <ul class="link-list">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+          
+          <script src="https://gist.github.com/2989329.js?file=f3-link-list.html"></script>
     			
     		</div>
     		<div class="four columns">

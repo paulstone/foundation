@@ -10,6 +10,7 @@ span.glyph { font-family: "FoundationIconsGeneralEnclosed"; }
 
 
 #copyright { background: #3f3f3f; color: #fff; padding: 11px 0; margin-top: 44px; }
+#copyright p, #copyright ul.link-list { margin-bottom: 0; }
 #copyright a { color: #fff; }
 
 /* Homepage */

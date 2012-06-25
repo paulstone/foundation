@@ -94,6 +94,11 @@ ul.nice, ol.nice { list-style: none; margin: 0; }
 ul.nice li, ol.nice li { padding-left: 13px; position: relative; }
 ul.nice li span.bullet, ul.nice li span.number, ol.nice li span.bullet, ol.nice li span.number { position: absolute; left: 0; top: 0; color: #ccc; }
 
+/* Link List */
+ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
+ul.link-list li { list-style: none; float: left; margin-left: 22px; display: block; }
+ul.link-list li a { display: block; }
+
 /* Video - Mad props to http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ */
 .flex-video { position: relative; padding-top: 25px; padding-bottom: 67.5%; height: 0; margin-bottom: 16px; overflow: hidden; }
 .flex-video.widescreen { padding-bottom: 57.25%; }
