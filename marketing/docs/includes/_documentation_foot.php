@@ -2,7 +2,7 @@
     <div class="twelve columns"><hr /></div>
   </div>
 
-	<!-- Das Footer -->
+	 <!-- Das Footer -->
 	  <footer class="row">
 	    <section class="five columns">
 	      <h6><strong>Made by ZURB</strong></h6>
