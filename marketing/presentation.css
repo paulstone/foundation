@@ -94,8 +94,8 @@ header#homepage .button:hover { background: #006582; }
 
 /* Top bar */
 .container.top-bar { margin-bottom: 0; }
-.top-bar { -webkit-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; -moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; border-bottom: 3px solid #00a5ff; }
-.top-bar li { margin-bottom: 0; }
+.top-bar { -webkit-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; -moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; border-bottom: none; }
+.top-bar li { margin-bottom: 0; line-height: 46px; }
 .top-bar .attached > ul.right > li.download { border-right: 0; }
 .top-bar .attached > ul.right > li.download a { padding: 6px 13px 6px; }
 .top-bar .small.button { height: auto; top: 10px; }
