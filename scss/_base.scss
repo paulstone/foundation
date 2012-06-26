@@ -20,9 +20,9 @@
   // Media Queries
   $screen-small: 768px;
   $screen-medium: 1280px;
-  $screen-large: 1441;
+  $screen-xlarge: 1441px;
 
-  $media-small: "only screen and (max-width: 767px)";
+  $media-small: "only screen and (max-width: 768px)";
   $media-medium: "only screen and (max-width: 1280px) and (min-width: 768px)";
   $media-xlarge: "only screen and (max-width: 1441px)";
   $media-landscape: "screen and (orientation: landscape)";

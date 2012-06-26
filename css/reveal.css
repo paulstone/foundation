@@ -14,7 +14,7 @@
 .reveal-modal .row { min-width: 0; }
 
 /* Mobile */
-@media only screen and (max-width: 767px) { .reveal-modal-bg { position: absolute; }
+@media only screen and (max-width: 768px) { .reveal-modal-bg { position: absolute; }
   .reveal-modal, .reveal-modal.small, .reveal-modal.medium, .reveal-modal.large, .reveal-modal.xlarge { width: 80%; top: 15px; left: 50%; margin-left: -40%; padding: 20px; height: auto; } }
   /* NOTES
  Close button entity is &#215;
