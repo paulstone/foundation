@@ -28,12 +28,12 @@
     			</script>
     		</li>
     		<li>
-          <iframe allowtransparency="true" frameborder="0" scrolling="no"
-    src="http://platform.twitter.com/widgets/follow_button.html?screen_name=foundationzurb"
-    style="width:80px; height:20px;"></iframe>
+    			<iframe src="http://www.facebook.com/plugins/like.php?app_id=273982815961057&amp;href=foundation.zurb.com&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
     		</li>
     		<li>
-    			<iframe src="http://www.facebook.com/plugins/like.php?app_id=273982815961057&amp;href=foundation.zurb.com&amp;send=false&amp;layout=button_count&amp;width=90&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
+          <iframe allowtransparency="true" frameborder="0" scrolling="no"
+    src="http://platform.twitter.com/widgets/follow_button.html?screen_name=foundationzurb"
+    style="width:110px; height:20px;"></iframe>
     		</li>
     	</ul>
       
