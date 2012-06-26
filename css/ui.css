@@ -6,13 +6,17 @@
 
 :: Alerts
 :: Labels
-:: Tabs
+:: Tooltips
+:: Panels
+:: Side Nav
+:: Sub Nav
 :: Pagination
 :: Breadcrumbs
 :: Lists
-:: Panels
-:: Nav
+:: Link Lists
+:: Keystroke Chars
 :: Video
+:: Tables
 :: Microformats
 
 */
@@ -104,6 +108,9 @@ ul.nice li span.bullet, ul.nice li span.number, ol.nice li span.bullet, ol.nice 
 ul.link-list { margin: 0 0 17px -22px; padding: 0; list-style: none; overflow: hidden; }
 ul.link-list li { list-style: none; float: left; margin-left: 22px; display: block; }
 ul.link-list li a { display: block; }
+
+/* Keystroke Characters */
+span.keystroke { font-family: "Consolas", "Menlo", "Courier", monospace; font-size: 13px; padding: 2px 4px 0px; white-space: nowrap; margin: 0; background: #ededed; border: solid 1px #dbdbdb; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 
 /* Video - Mad props to http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ */
 .flex-video { position: relative; padding-top: 25px; padding-bottom: 67.5%; height: 0; margin-bottom: 16px; overflow: hidden; }

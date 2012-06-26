@@ -17,9 +17,9 @@
 
   $.fn.reveal = function (options) {
     var defaults = {
-      animation: 'fadeAndPop',                // fade, fadeAndPop, none
-      animationSpeed: 300,                    // how fast animtions are
-      closeOnBackgroundClick: true,           // if you click background will modal close?
+      animation: 'fadeAndPop',                 // fade, fadeAndPop, none
+      animationSpeed: 300,                     // how fast animtions are
+      closeOnBackgroundClick: true,            // if you click background will modal close?
       dismissModalClass: 'close-reveal-modal', // the class of a button or element that will close an open modal
       open: $.noop,
       opened: $.noop,
