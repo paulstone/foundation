@@ -106,6 +106,7 @@
 
       a { display: block; }
       &.active a { color: lighten($black, 30%); font-weight: bold; }
+      &.divider { border-top: 1px solid darken($white, 10%); height: 0; padding: 0; }
     }
   }
 
