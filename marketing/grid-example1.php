@@ -3,9 +3,9 @@
   
   <style>
   
-  	.example .row, .example .row .column, .example .row .columns { background: #eee; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; height: 32px; text-indent: 4px; line-height: 32px; }
+  	.example .row, .example .row .column, .example .row .columns { background: #eee; height: 32px; line-height: 32px; }
   	.example .row { margin-bottom: 10px; }
-  	.example .row .column, .example .row .columns { background: #ccc; }
+  	.example .row .column, .example .row .columns { background: #ccc; border: 1px solid #bbb; }
   	
   	@media handheld, only screen and (max-width: 767px) {
 		.example .row { height: auto; }

@@ -18,10 +18,10 @@
 	  	<div class="eight columns">
 	  		<h3>Ye Olde Game Reviews</h3>
 	  	</div>
-	  	<div class="four columns hide-on-phones">
+	  	<div class="four columns hide-for-small">
 	  		<p class="right"><a href="#">Login</a> <a href="#" class="small blue nice radius button">Sign Up</a>
 	  	</div>
-	  	<div class="four columns show-on-phones">
+	  	<div class="four columns show-for-small">
 	  		<p><a href="#">Login</a> <a href="#" class="">Sign Up</a>
 	  	</div>
 	  </div>

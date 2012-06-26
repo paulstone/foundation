@@ -2,15 +2,15 @@
 <?php include("includes/_header.php"); ?>
   <style>
   
-  	.example .row, .example .row .column, .example .row .columns { border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+  	.example .row, .example .row .column, .example .row .columns { background: #f4f4f4; }
   	.example .row { margin-bottom: 10px; }
-  	.example .row .column, .example .row .columns { background: #eee; }
+  	.example .row .column, .example .row .columns { background: #eee; border: 1px solid #ddd; }
   	
   	@media handheld, only screen and (max-width: 767px) {
-		.example .row { height: auto; }
-		.example .row .column, .example .row .columns { margin-bottom: 10px; }
-		.example .row .column:last-child, .example .row .columns:last-child { margin-bottom: 0; }
-	}
+  		.example .row { height: auto; }
+  		.example .row .column, .example .row .columns { margin-bottom: 10px; }
+  		.example .row .column:last-child, .example .row .columns:last-child { margin-bottom: 0; }
+    }
   
   </style>
   
@@ -32,7 +32,7 @@
 		 </div>
 		 <div class="row">
 		 	<div class="eight columns">
-		 		<p>This is an eight column section, starting with this paragraph.<br />Below this you'll find another row with two section.</p>
+		 		<p>This is an eight column section, starting with this paragraph.<br />Below this you'll find another row with two sections.</p>
 		 		<div class="row">
 		 			<div class="six columns">
 		 				<img src="http://placehold.it/300x200" />

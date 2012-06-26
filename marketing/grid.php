@@ -24,7 +24,7 @@
       </div>
       
       <div class="ten columns">
-      	<img src="http://www.placehold.it/900x300">
+      	<img src="images/feature-grid-1.png" />
         <h4>Flexible, efficient layout.</h4>
         <p>You've probably used a grid framework before &mdash; we think you'll like this one. It's a 12 column flexible grid that can scale out to an arbitrary size (defined by the max-width of the row) that's also easily nested, so you can build out complicated layouts without creating a lot of custom elements. And when the Grid isn't enough for your site, it just gets out of the way. <br/> <a href="docs/grid.php">Grid docs &rarr;</a></p>
         
@@ -32,19 +32,19 @@
         <div class="row">
         	<div class="four columns">
         	  <a href="grid-example1.php" target="_blank">
-        	    <img src="http://www.placehold.it/600x400">
+        	    <img src="images/feature-grid-2.png" />
         	    <p>All Grid Sizes</p>
         	  </a>
         	</div>
         	<div class="four columns">
         	  <a href="grid-example2.php" target="_blank">
-        	    <img src="http://www.placehold.it/600x400">
+        	    <img src="images/feature-grid-3.png" />
         	    <p>Nesting the Grid</p>
         	  </a>
         	</div>
         	<div class="four columns">
         	  <a href="grid-example3.php" target="_blank">
-        	    <img src="http://www.placehold.it/600x400">
+        	    <img src="images/feature-grid-4.png" />
         	    <p>Mobile Grids</p>
         	  </a>
         	</div>
