@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $.ajax({
-    url: "http://github.com/api/v2/json/commits/list/zurb/foundation/master",
+    url: "https://api.github.com/repos/zurb/foundation/commits",
     dataType: 'jsonp',
     success: function(json) {
 			var latest = json.commits[0],
