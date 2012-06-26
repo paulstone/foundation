@@ -5,7 +5,7 @@
   
     <div class="row">
       <div class="twelve columns">
-        <h1>Foundation</h1>
+        <h1>Foundation 3</h1>
         <h4>The most advanced responsive framework in the world.</h4>
         
         <a href="download.php" class="large button">Download Foundation 3.0</a>
@@ -66,22 +66,22 @@
       
       <div class="row">
         <div class="four columns">
-          <a href="#" class="pic" id="featureGrid"></a>
-          <h4><a href="#">Flexible Grid</a></h4>
+          <a href="grid.php" class="pic" id="featureGrid"></a>
+          <h4><a href="grid.php">Flexible Grid</a></h4>
           
           <p>The Grid lets you lay out pages quickly and logically with a flexible, nestable system. Even better, the Grid can be whatever size you need &mdash; it's easily adapted to any size screens, from phones to TVs.</p>
           
         </div>
         <div class="four columns">
-          <a href="#" class="pic" id="featurePrototype"></a>
-          <h4><a href="#">Rapid Prototyping</a></h4>
+          <a href="prototyping.php" class="pic" id="featurePrototype"></a>
+          <h4><a href="prototyping.php">Rapid Prototyping</a></h4>
           
           <p>Foundation includes dozens of styles and elements to help you quickly put together clickable prototypes, that can then be adapted and styled into polished production code. Forms, buttons, tabs, all kinds of good stuff.</p>
           
         </div>
         <div class="four columns">
-          <a href="#" class="pic" id="featureDevices"></a>
-          <h4><a href="#">Multidevice Mobility</a></h4>
+          <a href="mobile.php" class="pic" id="featureDevices"></a>
+          <h4><a href="mobile.php">Multidevice Mobility</a></h4>
           
           <p>The Grid lets you quickly put together page layouts for mobile devices and the desktop. You don't need two different sites &mdash; the Grid is built to create a rock-solid experience on all kinds of devices with the exact same markup.</p>
           

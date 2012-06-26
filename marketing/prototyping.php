@@ -15,6 +15,8 @@
     <div class="row">
       <div class="two columns">
         <ul class="side-nav">
+          <li><a href="index.php">&larr; Home</a></li>
+          <li class="divider"></li>
           <li><a href="grid.php">The Grid</a></li>
           <li class="active"><a href="prototyping.php">Rapid Prototyping</a></li>
           <li><a href="mobile.php">Mobility</a></li>

@@ -15,6 +15,8 @@
     <div class="row">
       <div class="two columns">
         <ul class="side-nav">
+          <li><a href="index.php">&larr; Home</a></li>
+          <li class="divider"></li>
           <li><a href="case-flite.php">Flite</a></li>
           <li><a href="case-swizzle.php">Swizzle</a></li>
           <li class="active"><a href="case-soapbox.php">ZURBsoapbox</a></li>

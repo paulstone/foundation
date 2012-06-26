@@ -68,6 +68,7 @@ ul.side-nav { display: block; list-style: none; margin: 0; padding: 17px 0; }
 ul.side-nav li { display: block; list-style: none; margin: 0 0 7px 0; }
 ul.side-nav li a { display: block; }
 ul.side-nav li.active a { color: #4d4d4d; font-weight: bold; }
+ul.side-nav li.divider { border-top: 1px solid #e6e6e6; height: 0; padding: 0; }
 
 /* Sub Navs http://www.zurb.com/article/292/how-to-create-simple-and-effective-sub-na */
 dl.sub-nav { display: block; width: auto; overflow: hidden; margin: -4px 0 18px -9px; padding-top: 4px; }
