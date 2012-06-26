@@ -136,7 +136,7 @@
               <h5>Typography</h5>
               <div class="row">
                 <div class="four columns">
-                  <label for="baseFont">Base Font Size</label>
+                  <label for="baseFontSize">Base Font Size</label>
                   <div class="row collapse">
                     <div class="nine columns">
                       <input type="text" value="14" placeholder="px" id="baseFont" />
