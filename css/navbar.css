@@ -31,7 +31,7 @@
 .flyout.large { width: 437.5px; }
 .flyout.right { left: auto; right: 0; }
 
-ul.flyout, li ul { padding: 0; list-style: none; }
-ul.flyout li, li ul li { border-left: solid 3px #CCC; }
-ul.flyout li a, li ul li a { background: #f2f2f2; border: 1px solid #e6e6e6; border-width: 1px 1px 0 0; color: #555; display: block; font-size: 14px; height: auto; line-height: 1; padding: 15px 20px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
-ul.flyout li a:hover, li ul li a:hover { background: #ebebeb; color: #333; }
+ul.flyout, .nav-bar li ul { padding: 0; list-style: none; }
+ul.flyout li, .nav-bar li ul li { border-left: solid 3px #CCC; }
+ul.flyout li a, .nav-bar li ul li a { background: #f2f2f2; border: 1px solid #e6e6e6; border-width: 1px 1px 0 0; color: #555; display: block; font-size: 14px; height: auto; line-height: 1; padding: 15px 20px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+ul.flyout li a:hover, .nav-bar li ul li a:hover { background: #ebebeb; color: #333; }
