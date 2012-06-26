@@ -8,7 +8,7 @@
         <h1>Foundation</h1>
         <h4>The most advanced responsive framework in the world.</h4>
         
-        <a href="install.php" class="large button">Download Foundation 3.0</a>
+        <a href="download.php" class="large button">Download Foundation 3.0</a>
       </div>
     </div>
   
