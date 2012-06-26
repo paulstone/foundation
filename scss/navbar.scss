@@ -39,6 +39,17 @@
 
     &>li>a:first-child { position: relative; padding: 0 20px; display: block; text-decoration: none; font-size: ms(0); }
     &>li>input { margin: 0 10px; }
+    
+    &.vertical { height: auto; margin-top: 0;
+      
+      &>li { float: none; border-bottom: none;
+        
+        &.has-flyout>a:first-child:after { @include css-triangle(4px, darken($white, 10%), left); }
+        .flyout { left: 100%; top: -1px; 
+          &.right { left: auto; right: 100%; }
+        }
+      }
+    }
 
   }
 

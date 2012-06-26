@@ -113,25 +113,8 @@
                     </div>
                   </div>
                 </li>
-                <li class="has-flyout">
+                <li>
                   <a href="#">Nav Item 4</a>
-                  <a href="#" class="flyout-toggle"><span> </span></a>
-                  <div class="flyout large right">
-                    <h5>Large Dropdown</h5>
-                    <div class="row">
-                      <div class="four columns">
-                        <p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                        <p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                      </div>
-                      <div class="four columns">
-                        <p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                        <p>This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text. This is example text.</p>
-                      </div>
-                      <div class="four columns">
-                        <img src="http://placehold.it/200x250" />
-                      </div>
-                    </div>
-                  </div>
                 </li>
               </ul>
   				    
