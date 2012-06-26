@@ -8,6 +8,48 @@
     			<h3>Elements</h3>
     			<h4 class="subheader">Prototyping, and production, requires more than just navigation or tabs or typography. We've created a number of additional elements to help rapidly prototype, and like everything else they are production-ready and easy to restyle or override.</h4>
     			
+    			<hr />
+    			
+    			<h4>Visibility Classes</h4>
+  				<p>Foundation 3 allows you to easily turn elements on and off based on certain device criteria, like screen size, touch, or orientation.</p>
+  				
+  				<h5>Screen Size</h5>
+  				<p>The following text should describe the device you're using:				
+            <strong class="show-for-xlarge">You are on a very large screen.</strong>
+            <strong class="show-for-large">You are on a large screen.</strong>
+            <strong class="show-for-medium">You are on a medium screen.</strong>
+            <strong class="show-for-small">You are on a small screen, like a smartphone.</strong>
+  				</p>
+  				
+  				<script src="https://gist.github.com/2993794.js?file=f3-show-size.html"></script>
+  				
+  				<p>This example uses the opposite rules, so the following text should inversely describe the device you're using:				
+            <strong class="hide-for-xlarge">You are not on a very large screen.</strong>
+            <strong class="hide-for-large">You are not on a large screen.</strong>
+            <strong class="hide-for-medium">You are not on a medium screen.</strong>
+            <strong class="hide-for-small">You are not on a small screen.</strong>
+  				</p>
+  				
+  				<script src="https://gist.github.com/2993824.js?file=f3-hide-size.html"></script>
+  				
+  				<h5>Touch Detection</h5>
+  				<p>The following text should describe the device you're using:				
+            <strong class="show-for-touch">You are on a touch-enabled device.</strong>
+            <strong class="hide-for-touch">You are not on a touch-enabled device.</strong>
+  				</p>
+  				
+  				<script src="https://gist.github.com/2993838.js?file=f3-touch.html"></script>
+  				
+  				<h5>Orientation Detection</h5>
+  				<p>The following text should describe the device you're using:				
+            <strong class="show-for-landscape">You are in landscape orientation.</strong>
+            <strong class="show-for-portrait">You are in protrait orientation.</strong>
+  				</p>
+  				
+  				<script src="https://gist.github.com/2993845.js?file=f3-orientation.html"></script>
+  				
+  				<hr />
+    			
     			<h4>Alerts</h4>
   				<p>Alerts are a handy element you can drop into a form or inline on a page to communicate success, warnings, failure or just information. The syntax is extremely simple and like anything else in Foundation, easy to customize.</p>
   

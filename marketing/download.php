@@ -126,7 +126,7 @@
                       <span class="prefix">#</span>
                     </div>
                     <div class="ten columns">
-                      <input type="text" value="ff0000" placeholder="Hex" id="highlightColor" />
+                      <input type="text" value="ffff99" placeholder="Hex" id="highlightColor" />
                     </div>
                   </div>
                 </div>
