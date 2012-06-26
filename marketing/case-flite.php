@@ -16,9 +16,10 @@
       <div class="two columns">
         <ul class="side-nav">
           <li class="active"><a href="case-flite.php">Flite</a></li>
-          <li><a href="case-flite.php">Swizzle</a></li>
-          <li><a href="case-flite.php">ZURBsoapbox</a></li>
-          <li><a href="case-flite.php">Reel</a></li>
+          <li><a href="case-swizzle.php">Swizzle</a></li>
+          <li><a href="case-soapbox.php">ZURBsoapbox</a></li>
+          <li><a href="case-reel.php">Reel</a></li>
+          <li><a href="case-zurbjobs.php">ZURBjobs</a></li>
         </ul>
       </div>
       
@@ -58,7 +59,7 @@
         <h4>Would Use Again</h4>
         <p>In the end, the new site looked fantastic on all devices thanks to Foundation. Flite found a new tool that easily integrates with the other tools, such as SASS and Compass, in its toolbox. And the team would use Foundation again.</p>
         
-        <blockquote>"Overall, I would definitely use it again for othe projects."<cite>Andy</cite></blockquote>
+        <blockquote>"Overall, I would definitely use it again for other projects."<cite>Andy</cite></blockquote>
       </div>
     </div>
   

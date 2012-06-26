@@ -33,7 +33,7 @@ p a, p a:visited { line-height: inherit; }
 
 .hide { display: none; }
 
-.highlight { background: yellow; }
+.highlight { background: #ffff99; }
 
 #googlemap img, object, embed { max-width: none; }
 

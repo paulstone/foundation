@@ -1,10 +1,6 @@
 <? $page_title = "Layout Tools"; ?>
 <?php include("includes/_documentation_head.php"); ?>
 	
-	<style>
-		.example .block-grid li { padding: 10px 0px; background: #ddd; }
-	</style>
-	
 	<div class="container">
 		<div class="row">
 			<div class="twelve columns">

@@ -1,4 +1,7 @@
-<? $page_title = "Rapid Prototyping and Building Framework from ZURB" ?>
+<? 
+  $page_title = "All Grid Sizes";
+  $featuresTab = true;
+?>
 <?php include("includes/_header.php"); ?>
   
   <style>
@@ -15,17 +18,36 @@
   
   </style>
   
-  <header>
+  <!-- Grid BG -->
+  <div id="gridBgShort" class="container hide-on-phones">
+    <div class="white-fade"></div>
     <div class="row">
-      <div class="twelve columns">
-        <h1>All Grid Sizes</h1>
-        <h4></h4>
-      </div>
+      <div class="one columns"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div>
     </div>
-  </header>
+  </div>
+  <!-- /Grid BG -->
   
-  <section id="mainContent" class="example">
-  
+	<div id="insideContainer" class="container">
+	  <div class="row hide-on-phones">
+	    <a href="grid.php" class="back two columns hide-on-phones">&larr; About the Grid</a>
+	    <!-- Nav -->
+	    <nav class="ten columns">
+	  	    <ul>
+	  	      <li><a href="docs/">Documentation</a></li>
+	  	      <li><a href="#">On Github</a></li>
+	  	      <li><a class="nice small blue button src-download" href="files/foundation-download-<?= $version ?>.zip">Download</a></li>
+	  	    </ul>
+  	  	</nav>
+	    <!-- / Nav -->
+	  </div>
+	  
+	  <div class="row">
+	    <div class="twelve columns">
+	      <h1 class="light-weight">All Grid Sizes</h1>
+	    </div>
+	  </div>
+	  
+	  <section class="example">
 		  <div class="row">
 		  	.row
 		  </div>
@@ -96,7 +118,9 @@
 		  	<div class="two columns">.two.columns</div>
 		  	<div class="two columns">.two.columns</div>
 		  </div>
-  
-  </section>  
-  	
+	  </section>
+	 </div>
+	   	  
+	 <div class="container">  	  
+	
 <?php include("includes/_footer.php");  ?>

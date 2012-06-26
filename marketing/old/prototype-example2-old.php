@@ -1,20 +1,26 @@
-<? $page_title = "Rapid Prototyping and Building Framework from ZURB" ?>
+<? 
+  $page_title = "Games Site Prototyping Example";
+  $featuresTab = true;
+?>
 <?php include("includes/_header.php"); ?>
-  
 
   
-  <header>
+  <!-- Grid BG -->
+  <div id="gridBgShort" class="container hide-on-phones">
+    <div class="white-fade"></div>
     <div class="row">
-      <div class="twelve columns">
-        <h1>All Grid Sizes</h1>
-        <h4></h4>
-      </div>
+      <div class="one columns"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div><div class="one columns hide-on-phones"></div>
     </div>
-  </header>
+  </div>
+  <!-- /Grid BG -->
   
-  <section id="mainContent" class="example">
-  
-	<div class="row">
+	<div id="insideContainer" class="container">
+	  <div class="row">
+	    <a href="prototyping.php" class="back two columns">&larr; About Prototyping</a>
+	    <hr />
+	  </div>
+	  
+	  <div class="row">
 	  	<div class="eight columns">
 	  		<h3>Ye Olde Game Reviews</h3>
 	  	</div>
@@ -96,7 +102,9 @@
 	  		</div>
 	  	</div>
 	  </div>
-  
-  </section>  
-  	
+	  
+	</div>
+	   	  
+	<div class="container">   	  
+	
 <?php include("includes/_footer.php");  ?>

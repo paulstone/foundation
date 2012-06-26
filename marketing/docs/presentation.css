@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5 { font-family: "OpenSans"; font-weight: 500; }
 header .subheader { position: relative; top: -18px; }
 
 .row.display { background: #f4f4f4; margin-bottom: 10px; }
-.row.display .column, .row.display .columns { background: #e7e7e7; border: 1px solid #ddd; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; }
+.row.display .column, .row.display .columns, .block-grid li { background: #e7e7e7; border: 1px solid #ddd; font-size: 11px; text-indent: 3px; padding-top: 6px; padding-bottom: 6px; }
 
 .typography h1,
 .typography h2,
@@ -39,6 +39,19 @@ header .subheader { position: relative; top: -18px; }
 
 #featuredContent { background: #f4f4f4; }
 #featuredContent div { background: #f4f4f4; padding: 30px 60px; }
+
+/* Top bar */
+.container.top-bar { margin-bottom: 0; }
+.top-bar { -webkit-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; -moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; border-bottom: none; }
+.top-bar .attached { width: auto; max-width: 1440px; padding: 0 15px; }
+.top-bar li { margin-bottom: 0; line-height: 46px; }
+.top-bar .attached > ul.right > li.download { border-right: 0; }
+.top-bar .attached > ul.right > li.download a { padding: 6px 13px 6px; }
+.top-bar .small.button { height: auto; top: 10px; }
+.top-bar a:hover { color: white; }
+.top-bar .attached > ul.right > li.download:hover > a { background-color: #00a5ff; }
+#megaDrop li { list-style: none; }
+#megaDrop .show-on-phones, #megaDrop .sitemap-link { display: none !important; }
 
 @media handheld, only screen and (max-width: 767px) {
 

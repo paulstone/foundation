@@ -149,6 +149,10 @@
           <li><a href="http://www.zurb.com" id="usingZURB" target="_blank"><img src="images/usingZURB.png" /></a></li>
           <li><a href="http://www.getfelix.com/" id="usingFelix" target="_blank"><img src="images/usingFelix.png" /></a></li>
           <li><a href="https://webfwd.org/" id="usingWebFWD" target="_blank"><img src="images/usingMozilla.png" /></a></li>
+          <li><a href="http://reelapp.com/" id="usingReel" target="_blank"><img src="images/usingReel.png" /></a></li>
+          <li><a href="http://spurapp.com/" id="usingSpur" target="_blank"><img src="images/usingSpur.png" /></a></li>
+          <li><a href="http://zurb.com/soapbox/" id="usingSoapbox" target="_blank"><img src="images/usingSoapbox.png" /></a></li>
+          <li><a href="http://axeapp.com/" id="usingAxe" target="_blank"><img src="images/usingAxe.png" /></a></li>
         </ul>
       </div>
     </div>

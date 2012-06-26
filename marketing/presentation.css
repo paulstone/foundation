@@ -7,6 +7,9 @@
 
 h1, h2, h3, h4, h5 { font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif; font-weight: 300; }
 span.glyph { font-family: "FoundationIconsGeneralEnclosed"; }
+span.glyph.social { font-family: "FoundationIconsSocial"; }
+
+footer span.glyph { font-size: 23px; }
 
 
 #copyright { background: #3f3f3f; color: #fff; padding: 11px 0; margin-top: 44px; }
@@ -24,6 +27,8 @@ span.glyph { font-family: "FoundationIconsGeneralEnclosed"; }
 header { background-color: #2ba6cb; padding: 22px 0; }
 header h1 { color: #fff; font-weight: 500; }
 header h4 { color: #fff; font-weight: 300; }
+
+p.disclaimer { color: #999; }
 
 /* Homepage */
 
@@ -94,13 +99,18 @@ header#homepage .button:hover { background: #006582; }
 
 /* Top bar */
 .container.top-bar { margin-bottom: 0; }
-.top-bar { -webkit-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; -moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; border-bottom: 3px solid #00a5ff; }
-.top-bar li { margin-bottom: 0; }
+.top-bar { -webkit-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; -moz-box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; box-shadow: rgba(0,0,0,0.0976562) 0px 5px 5px; border-bottom: none; }
+.top-bar li { margin-bottom: 0; line-height: 46px; }
 .top-bar .attached > ul.right > li.download { border-right: 0; }
 .top-bar .attached > ul.right > li.download a { padding: 6px 13px 6px; }
 .top-bar .small.button { height: auto; top: 10px; }
 .top-bar a:hover { color: white; }
-.top-bar .attached > ul.right > li.download:hover > a { background-color: #00a5ff; }
+.top-bar .attached > ul.right > li.download:hover > a { background-color: #2284A1; }
+#megaDrop li { list-style: none; }
+#megaDrop .show-on-phones, #megaDrop .sitemap-link { display: none !important; }
+
+
+/* Demo */
 
 
 /* Fonts */
@@ -235,14 +245,26 @@ header#homepage .button:hover { background: #006582; }
 
 }
 
-/* Foundation Icons General Enclosed */
+/* Foundation Icons */
 @font-face {
     font-family: 'FoundationIconsGeneralEnclosed';
-    src: url('../fonts/foundation-icons-general-enclosed.eot');
-    src: url('../fonts/foundation-icons-general-enclosed.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/foundation-icons-general-enclosed.woff') format('woff'),
-         url('../fonts/foundation-icons-general-enclosed.ttf') format('truetype'),
-         url('../fonts/foundation-icons-general-enclosed.svg#FoundationIconsGeneralEnclosed') format('svg');
+    src: url('fonts/foundation-icons-general-enclosed.eot');
+    src: url('fonts/foundation-icons-general-enclosed.eot?#iefix') format('embedded-opentype'),
+         url('fonts/foundation-icons-general-enclosed.woff') format('woff'),
+         url('fonts/foundation-icons-general-enclosed.ttf') format('truetype'),
+         url('fonts/foundation-icons-general-enclosed.svg#FoundationIconsGeneralEnclosed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FoundationIconsSocial';
+    src: url('fonts/foundation-icons-social.eot');
+    src: url('fonts/foundation-icons-social.eot?#iefix') format('embedded-opentype'),
+         url('fonts/foundation-icons-social.woff') format('woff'),
+         url('fonts/foundation-icons-social.ttf') format('truetype'),
+         url('fonts/foundation-icons-social.svg#FoundationIconsGeneralEnclosed') format('svg');
     font-weight: normal;
     font-style: normal;
 
