@@ -21,6 +21,13 @@ dl.tabs.vertical dd a { background: #f2f2f2; border: none; border: 1px solid #e6
 dl.tabs.vertical dd.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 4px solid #1a1a1a; }
 dl.tabs.vertical dd.active a { background: #4d4d4d; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 dl.tabs.vertical dd:first-child a.active { margin: 0; }
+dl.tabs.pill { border-bottom: none; margin-bottom: 10px; }
+dl.tabs.pill dd { margin-right: 10px; }
+dl.tabs.pill dd:last-child { margin-right: 0; }
+dl.tabs.pill dd a { -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; background: #e6e6e6; height: 26px; line-height: 26px; color: #666; }
+dl.tabs.pill dd.active { border: none; margin-top: 0; }
+dl.tabs.pill dd.active a { background-color: #2ba6cb; border: none; color: #fff; }
+dl.tabs.pill.contained { border-bottom: solid 1px #eee; margin-bottom: 0; }
 dl.tabs.two-up dt a, dl.tabs.two-up dd a, dl.tabs.three-up dt a, dl.tabs.three-up dd a, dl.tabs.four-up dt a, dl.tabs.four-up dd a, dl.tabs.five-up dt a, dl.tabs.five-up dd a { padding: 0 17px; text-align: center; overflow: hidden; }
 dl.tabs.two-up dt, dl.tabs.two-up dd { width: 50%; }
 dl.tabs.three-up dt, dl.tabs.three-up dd { width: 33.33%; }

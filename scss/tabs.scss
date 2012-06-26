@@ -38,6 +38,18 @@
       }
     }
 
+    &.pill { border-bottom: none; margin-bottom: 10px;
+      dd { margin-right: 10px;
+        &:last-child { margin-right: 0; }
+        a { @include border-radius(1000px); background: darken($white, 10%); height: $tabHeight - 14; line-height: $tabHeight - 14; color: #666; }
+
+        &.active { border: none; margin-top: 0;
+          a { background-color: $mainColor; border: none; color: #fff; }
+        }
+      }
+      &.contained { border-bottom: solid 1px #eee; margin-bottom: 0; }
+    }
+
     &.two-up, &.three-up, &.four-up, &.five-up {
       dt a, dd a { padding: 0 ms(1); text-align: center; overflow: hidden; }
     }
