@@ -1,30 +1,32 @@
 Welcome to Foundation
 =====================
 
-Foundation is a rock-solid, responsive framework for rapidly prototyping and iterating into production code. It includes a 12-column, future-friendly grid and tons of great tools and elements that'll get you up and running in no time. Clone the repo to get the marketing site, docs, and base source. You can also visit http://foundation.zurb.com to download just the base source as a starting boilerplate.
+Foundation is the most advanced framework in the world for rapidly prototyping and iterating into production code. It includes a 12-column, future-friendly grid and tons of great tools and elements that'll get you up and running in no time. You can use Foundation by downloading the CSS, customizing a CSS download, or using the Sass/Compass gem.
 
 Homepage:      http://foundation.zurb.com  
 Documentation: http://foundation.zurb.com/docs  
-Download:      http://foundation.zurb.com/files/foundation-download-2.2.1.zip  
+Download:      http://foundation.zurb.com/download.php
+Install:       http://foundation.zurb.com/docs/install/download.php  
 
 Foundation is MIT-licensed and absolutely free to use. Foundation wouldn't be possible without the support of the entire ZURB team, our friends and colleagues who gave feedback, and some luminaries who did some heavy lifting that we took advantage of (thanks guys).
 
 Repo Contents
 =============
 
-* README
-* IMAGES - Base images for Orbit and some standard elements
-* INCLUDES - Header and footer (currently PHP)
+* /marketing - the entire marketing site (foundation.zurb.com)
+* /images - Base images for Orbit and some standard elements
+* /scss - The Sass stylesheets for Foundation
+* /css - the generated Foundation stylesheets
+* /js - jQuery, Modernizr, jQuery plugins, app.js
 * index.php
-* JAVASCRIPTS - jQuery, app.js placeholder, placeholder
-* MARKETING - the entire marketing site (foundation.zurb.com)
+* README.markdown
 * robots.txt - Boilerplate robots file
-* STYLESHEETS - the Foundation stylesheets
+* humans.txt - Boilerplate humans file
 
 ZURB
 ====
 
-Foundation was made by [ZURB](http://www.zurb.com), an interaction design and design strategy firm in Campbell, CA.
+Foundation was made by [ZURB](http://www.zurb.com), a product design agency in Campbell, CA.
 
 If Foundation knocks your socks off the way we hope it does and you want more, why not check out [our jobs](http://www.zurb.com/talent)?
 
@@ -35,7 +37,6 @@ Many thanks to all the people working on Foundation either to improve the base c
 
 WordPress
 
-* [Starter Theme](https://github.com/drewsymo/Foundation) by Drew Morris
 * [Reverie](http://themefortress.com/reverie/) by Zhen
 
 Joomla

@@ -32,7 +32,6 @@
 	<link rel="stylesheet" href="../../css/reveal.css">
 	<link rel="stylesheet" href="../../css/app.css">
 	<link rel="stylesheet" href="../../css/mobile.css">
-	<link rel="stylesheet" href="../../css/offcanvas.css">
 	<link rel="stylesheet" href="http://www.zurb.com/assets/foundation.top-bar.css">
   <link rel="stylesheet" href="http://www.zurb.com/assets/zurb.mega-drop.css">
 	<link rel="stylesheet" href="presentation.css">
