@@ -16,9 +16,10 @@
       <div class="two columns">
         <ul class="side-nav">
           <li class="active"><a href="case-flite.php">Flite</a></li>
-          <li><a href="case-flite.php">Swizzle</a></li>
-          <li><a href="case-flite.php">ZURBsoapbox</a></li>
-          <li><a href="case-flite.php">Reel</a></li>
+          <li><a href="case-swizzle.php">Swizzle</a></li>
+          <li><a href="case-soapbox.php">ZURBsoapbox</a></li>
+          <li><a href="case-reel.php">Reel</a></li>
+          <li><a href="case-zurbjobs.php">ZURBjobs</a></li>
         </ul>
       </div>
       
