@@ -33,6 +33,8 @@
 	<link rel="stylesheet" href="../../css/app.css">
 	<link rel="stylesheet" href="../../css/mobile.css">
 	<link rel="stylesheet" href="../../css/offcanvas.css">
+	<link rel="stylesheet" href="http://www.zurb.com/assets/foundation.top-bar.css">
+  <link rel="stylesheet" href="http://www.zurb.com/assets/zurb.mega-drop.css">
 	<link rel="stylesheet" href="presentation.css">
 	
 	<!--[if lt IE 9]>
@@ -46,6 +48,42 @@
 
 </head>
 <body class="off-canvas">
+
+  <!-- ZURBar -->
+  <div class="container top-bar home-border">
+    <div class="attached">
+      <div class="name" onclick="void(0);">
+        <span><a href="http://foundation.zurb.com">Foundation</a> <a href="#" class="toggle-nav"></a></span>
+  		</div>
+
+  		<ul class="right">			
+  			<li>
+  			  <a href="grid.php" <?php if (isset($featuresTab)) echo 'class="current"'; ?>>Features</a>
+  			</li>			
+  			<li>
+  			  <a href="case-soapbox.php" <?php if (isset($caseStudiesTab)) echo 'class="current"'; ?>>Case Studies</a>
+  			</li>
+  			<li>
+  			  <a href="docs">Documentation</a>
+  			</li>
+  		  <li>
+  		    <a href="http://github.com/zurb/foundation">GitHub</a>
+  			</li>
+  			<li class="download"><a class="small blue nice button src-download" href="files/foundation-download-2.2.1.zip">Download</a></li>
+  		</ul>
+  	</div>
+  </div>
+
+  <!-- INSERT MEGA DROP DOWN HERE -->
+  <?php
+  $megadropfile = '../cache/navigation_bar.html';
+
+  if (file_exists($megadropfile)) {
+      include $megadropfile;
+  }
+  ?>
+
+  <!-- /ZURBar -->
 
 	<header id="header" class="row">
 	  <div class="eight columns">

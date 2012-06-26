@@ -63,7 +63,7 @@
   			  <a href="grid.php" <?php if (isset($featuresTab)) echo 'class="current"'; ?>>Features</a>
   			</li>			
   			<li>
-  			  <a href="case-soapbox.php" <?php if (isset($caseStudiesTab)) echo 'class="current"'; ?>>Case Studies</a>
+  			  <a href="case-flite.php" <?php if (isset($caseStudiesTab)) echo 'class="current"'; ?>>Case Studies</a>
   			</li>
   			<li>
   			  <a href="docs">Documentation</a>
@@ -71,7 +71,7 @@
   		  <li>
   		    <a href="http://github.com/zurb/foundation">GitHub</a>
   			</li>
-  			<li class="download"><a class="small blue nice button src-download" href="files/foundation-download-2.2.1.zip">Download</a></li>
+  			<li class="download"><a class="small blue nice button src-download" href="download.php">Download</a></li>
   		</ul>
   	</div>
   </div>

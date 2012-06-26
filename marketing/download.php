@@ -5,18 +5,12 @@
     <div class="row">
       <div class="twelve columns">
         <h1>Download Foundation</h1>
-        <h4>Get the version of Foundation that's perfect for you.</h4>
+        <h4>There are three ways to get Foundation. Pick the one that's right for you.</h4>
       </div>
     </div>
   </header>
   
   <section id="mainContent">
-  
-    <div class="row">
-      <div class="twelve columns">
-        <h2>There are three ways to get Foundation.</h2>
-      </div>
-    </div>
     
     <div class="row">
       <div class="four columns">
@@ -177,6 +171,12 @@
           
           <input type="submit" class="radius button" value="Download Custom Build" />
         </form>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="twelve columns">
+        <p class="disclaimer">Used to Foundation 2 and want to keep on truckin'? No problem. <a href="files/foundation-2.2.1.zip">Download it.</a></p>
       </div>
     </div>
       
