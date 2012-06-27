@@ -68,12 +68,6 @@
     .show-for-xlarge { display: none !important; }
   }
 
-  /* Touch-enabled device targeting */
-  .show-for-touch { display: none !important; }
-  .hide-for-touch { display: block !important; }
-  .touch .show-for-touch { display: block !important; }
-  .touch .hide-for-touch { display: none !important; }
-
   /* Orientation targeting */
   .show-for-landscape,
   .hide-for-portrait { display: block !important; }
@@ -93,6 +87,12 @@
     .hide-for-portrait,
     .show-for-landscape { display: none !important; }
   }
+
+  /* Touch-enabled device targeting */
+  .show-for-touch { display: none !important; }
+  .hide-for-touch { display: block !important; }
+  .touch .show-for-touch { display: block !important; }
+  .touch .hide-for-touch { display: none !important; }
 
   /* Specific overrides for elements that require something other than display: block */
 

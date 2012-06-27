@@ -32,6 +32,14 @@
   				
   				<script src="https://gist.github.com/2993824.js?file=f3-hide-size.html"></script>
   				
+  				<h5>Orientation Detection</h5>
+  				<p>The following text should describe the device you're using:				
+            <strong class="show-for-landscape">You are in landscape orientation.</strong>
+            <strong class="show-for-portrait">You are in protrait orientation.</strong>
+  				</p>
+  				
+  				<script src="https://gist.github.com/2993845.js?file=f3-orientation.html"></script>
+  				
   				<h5>Touch Detection</h5>
   				<p>The following text should describe the device you're using:				
             <strong class="show-for-touch">You are on a touch-enabled device.</strong>
@@ -40,13 +48,7 @@
   				
   				<script src="https://gist.github.com/2993838.js?file=f3-touch.html"></script>
   				
-  				<h5>Orientation Detection</h5>
-  				<p>The following text should describe the device you're using:				
-            <strong class="show-for-landscape">You are in landscape orientation.</strong>
-            <strong class="show-for-portrait">You are in protrait orientation.</strong>
-  				</p>
-  				
-  				<script src="https://gist.github.com/2993845.js?file=f3-orientation.html"></script>
+  				<p><strong>Note:</strong> These classes have been listed in order of precendence. Touch classes will override orientation, which will override size.</p>
   				
   				<hr />
     			

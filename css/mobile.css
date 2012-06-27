@@ -17,15 +17,6 @@
 /* Small device targeting */
 @media only screen and (max-width: 767px) { .show-for-small, .hide-for-medium, .hide-for-large, .hide-for-xlarge { display: block !important; }
   .hide-for-small, .show-for-medium, .show-for-large, .show-for-xlarge { display: none !important; } }
-/* Touch-enabled device targeting */
-.show-for-touch { display: none !important; }
-
-.hide-for-touch { display: block !important; }
-
-.touch .show-for-touch { display: block !important; }
-
-.touch .hide-for-touch { display: none !important; }
-
 /* Orientation targeting */
 .show-for-landscape, .hide-for-portrait { display: block !important; }
 
@@ -35,6 +26,15 @@
   .hide-for-landscape, .show-for-portrait { display: none !important; } }
 @media screen and (orientation: portrait) { .show-for-portrait, .hide-for-landscape { display: block !important; }
   .hide-for-portrait, .show-for-landscape { display: none !important; } }
+/* Touch-enabled device targeting */
+.show-for-touch { display: none !important; }
+
+.hide-for-touch { display: block !important; }
+
+.touch .show-for-touch { display: block !important; }
+
+.touch .hide-for-touch { display: none !important; }
+
 /* Specific overrides for elements that require something other than display: block */
 table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-for-medium { display: table !important; }
 
