@@ -34,16 +34,16 @@
             <p>We launched <a href="http://www.zurbsoapbox.com">ZURBsoapbox</a>, the first site built with Foundation, in order to raise engagement and create a resource for anyone who can't attend in person. <strong>Here's some of the highlights.</strong></p>
             
             <h4>Instant Mobile Site</h4>
-            <p>Thanks to Foundation's <a href="docs/grid.php">built-in responsive grid</a>, as soon as we put together the desktop prototype we already had a working mobile prototype, for tablets and phones.</p>              
+            <p>Thanks to Foundation's <a href="docs/grid.php">built-in responsive grid</a>, as soon as we put together the desktop prototype we already had a working mobile prototype, ready for tablets, phones and other devices.</p>              
           </div>
           <div class="six columns">
-            <img src="images/case-flite-1.jpg" id="sideDevice" />
+            <img src="images/case-soapbox-1.jpg" id="sideDeviceDesktop" />
           </div>
         </div>
       
         <div class="row">
           <div class="six columns">
-            <img src="images/case-flite-2.png" />
+            <img src="images/case-soapbox-2.jpg" />
           </div>
           <div class="six columns"> 
             <h4>Device-Specific Function</h4>
