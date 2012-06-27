@@ -24,6 +24,9 @@ input[type="text"].oversize, textarea.oversize { font-size: 18 !important; font-
 input[type="text"]:focus, textarea:focus { background: #fafafa; outline: none !important; border-color: #b3b3b3; }
 input[type="text"][disabled], textarea[disabled] { background-color: #ddd; }
 
+/* Correct FF input padding */
+@-moz-document url-prefix() { input[type="text"], textarea { padding: 7px 6px 6px; } }
+
 select { width: 100%; }
 
 /* Fieldsets */
@@ -71,3 +74,6 @@ form.custom div.custom.dropdown ul li.selected:hover { background: #cdebf5; curs
 form.custom div.custom.dropdown ul li.selected:hover:after { color: #000; }
 form.custom div.custom.dropdown ul.show { display: block; }
 form.custom .custom.disabled { background-color: #ddd; }
+
+/* Correct FF custom dropdown height */
+@-moz-document url-prefix() { form.custom div.custom.dropdown a.selector { height: 30px; } }

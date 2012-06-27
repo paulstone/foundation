@@ -40,6 +40,10 @@
   				</div>
   				
   				<p>Button classes can also be applied to <code>button</code> elements, as well as <code>input type="submit"</code> elements.</p>
+  				
+  				<button class="button">Form Button</button>  				
+  				<input type="submit" class="button" value="Input Submit Button" />
+  				<a href="#" class="button">Regular Button &raquo;</a>
 
   				<hr />
 

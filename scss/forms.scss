@@ -34,6 +34,11 @@
     &:focus { background: darken($white, 2%); outline: none !important; border-color: darken($white, 30%); }
     &[disabled] { background-color: #ddd; }
   }
+  
+  /* Correct FF input padding */
+  @-moz-document url-prefix() {
+    input[type="text"], textarea { padding: (($formSpacing / 2) + 1) ($formSpacing / 2) ($formSpacing / 2); }
+  }
 
   select { width: 100%; }
 
@@ -105,7 +110,12 @@
       }
       &.show { display: block; }
     }
-
+    
     /* Custom input, disabled */
     .custom.disabled { background-color: #ddd; }
+  }
+    
+  /* Correct FF custom dropdown height */
+  @-moz-document url-prefix() {
+    form.custom div.custom.dropdown a.selector { height: 30px; }
   }

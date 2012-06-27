@@ -27,7 +27,7 @@
 .flyout *:last-child { margin-bottom: 0; }
 .flyout.small { width: 166.667px; }
 .flyout.large { width: 437.5px; }
-.flyout.right { left: auto; right: 0; }
+.flyout.right { left: auto; right: -2px; }
 
 ul.flyout, .nav-bar li ul { padding: 0; list-style: none; }
 ul.flyout li, .nav-bar li ul li { border-left: solid 3px #CCC; }
