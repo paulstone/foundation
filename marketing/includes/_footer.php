@@ -45,8 +45,8 @@
       </div>
     </div>
   </div>
-
-	<script src="../js/jquery.min.js"></script>
+  
+  <script src="../js/jquery.min.js"></script>
 	<script src="../js/modernizr.foundation.js"></script>
 	<script src="jswipe.js"></script>
 	<script src="../js/jquery.reveal.js"></script>

@@ -119,3 +119,4 @@
   @-moz-document url-prefix() {
     form.custom div.custom.dropdown a.selector { height: 30px; }
   }
+  .lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px; }
