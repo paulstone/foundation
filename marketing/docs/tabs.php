@@ -71,6 +71,21 @@
           </ul>
   
   				<script src="https://gist.github.com/2984321.js?file=f3-contained-tabs.html"></script>
+  				
+  				<hr />
+  				
+  				<h4>Pill-Style Tabs</h4>
+  				<p>If you need an alternate view for tabs (especially for filters, or similar) you can use pill-style tabs. They look like this:</p>
+  				
+          <dl class="tabs pill">
+          	<dd class="active"><a href="#pillTab1">Pill Tab 1</a></dd>
+          	<dd><a href="#pillTab2">Pill Tab 2</a></dd>
+          	<dd><a href="#pillTab3">Pill Tab 3</a></dd>
+          </dl>
+  				
+  				<script src="https://gist.github.com/3000706.js?file=f3-pill-tabs.html"></script>
+  				
+  				<hr />
   
   				<h4>Vertical Tabs</h4>
   				<p>You can also use tabs in a vertical configuration by adding a class of 'vertical' to the <code>dl</code> element. These are great for more scalable nav, and you can see how they work on this page on a tablet or desktop.</p>

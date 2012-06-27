@@ -32,6 +32,13 @@
     
     <div class="row">
       <div class="twelve columns">
+         <p class="disclaimer">Upgrading from Foundation 2? There are some things you should know. Read the <a href="migration.php">migration guide &rarr;</a><br />
+         Used to Foundation 2 and want to keep on truckin'? No problem. <a href="files/foundation-2.2.1.zip">Download it&rarr;</a></p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="twelve columns">
         <hr />
         
         <h3 id="customizeFoundation">Customize Foundation</h3>
@@ -174,11 +181,6 @@
       </div>
     </div>
     
-    <div class="row">
-      <div class="twelve columns">
-        <p class="disclaimer">Used to Foundation 2 and want to keep on truckin'? No problem. <a href="files/foundation-2.2.1.zip">Download it.</a></p>
-      </div>
-    </div>
       
   </section>  
   	
