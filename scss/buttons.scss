@@ -86,7 +86,12 @@
       }
     }
 
-    ul.no-hover.show-dropdown { display: block; }
+    ul.no-hover.show-dropdown { display: block !important; }
+    &:hover {
+      &>ul.no-hover {
+        display: none;
+      }
+    }
 
     /* Split Dropdown Buttons */
     &.split { padding: 0; position: relative;
