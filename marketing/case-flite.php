@@ -39,7 +39,7 @@
             <p>Andy had Foundation up and running in a day. Then it was just a matter of building out the entire site, which took about another two weeks.</p>
           </div>
           <div class="six columns">
-            <img src="images/case-flite-1.jpg" id="sideDevice" />
+            <img src="images/case-flite-1.jpg" id="sideDeviceDesktop" />
           </div>
         </div>
       

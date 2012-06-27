@@ -102,9 +102,13 @@
   				
   				<h5><a href="https://groups.google.com/forum/?fromgroups#!forum/foundation-framework-">Foundation Framework Google Group</a></h5>
   				<p>This is an active group of Foundation users who can answer questions about implementation or approach. If you aren't sure how to do something, or something isn't working like you'd expect, reach out here.</p>
+  				<p><a href="https://groups.google.com/forum/?fromgroups#!forum/foundation-framework-" class="small button">Foundation Google Group &rarr;</a></p>
   				
   				<h5><a href="http://github.com/zurb/foundation/issues">Github Issues</a></h5>
   				<p>If you've found a bug in the framework (or think you have) you can file it here. We try and address these as part of ongoing development. Please use this only for bugs or things that seem incorrect, support requests will not be addressed quickly here.</p>
+  				
+  				<h5><a href="http://twitter.com/foundationzurb">@foundationzurb</a></h5>
+  				<p>Follow us on Twitter to hear about new sites using Foundation, code examples, playground pieces from ZURB and more. You can also ping us with quick questions or other support issues, we're usually pretty speedy.</p>
   				
   				<h5><a href="mailto:foundation@zurb.com">Get in Touch</a></h5>
   				<p>If you're totally stuck and need some help, shoot us an email and we'll typically get back within a day or two.</p>

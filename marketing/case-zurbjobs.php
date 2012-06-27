@@ -39,15 +39,12 @@
 
           </div>
           <div class="six columns">
-            <img src="images/case-flite-1.jpg" id="sideDevice" />
+            <img src="images/case-zurbjobs-1.jpg" id="sideDeviceDesktop" />
           </div>
         </div>
       
         <div class="row">
-          <div class="six columns">
-            <img src="images/case-flite-2.png" />
-          </div>
-          <div class="six columns">
+          <div class="twelve columns">
             <h4>Mobile Optimized</h4>
             <p>Of course, since we built with Foundation, the site works great on mobile devices. CSS3 helps us avoid extraneous image requests, ensuring that things feel snappy even on slower connections. The layout also adapts to be simple and straightforward.</p>
             

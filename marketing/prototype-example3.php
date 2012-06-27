@@ -68,6 +68,8 @@
 		  			</section>
 	  			</div>
 	  		</div>
+	  		<hr />
+	  		
 	  		<div class="row">
 	  			<div class="two phone-one columns">
 	  				<img src="http://placehold.it/200x200" />

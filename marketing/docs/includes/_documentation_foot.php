@@ -17,6 +17,17 @@
 	    <section class="four columns">
 	      <h6><strong>Need some help?</strong></h6>
 	      <p>For answers or help visit the <a href="support.php">Support page</a>.</p>
+	      <ul class="link-list">
+        	<li>
+      	    <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ffoundation.zurb.com%2F&t=Foundation%20from%20ZURB" target="_blank"><span class="glyph social">d</span></a>
+      		</li>
+      		<li>
+            <a href="https://plusone.google.com/_/+1/confirm?url=http://foundation.zurb.com&title=Foundation%20from%20ZURB" target="_blank"><span class="glyph social">l</span></a>
+      		</li>
+      		<li>
+      			<a href="http://www.twitter.com/share?url=http://foundation.zurb.com/" target="_blank"><span class="glyph social">e</span></a>
+      		</li>
+      	</ul>
 	    </section>
 	  </footer>
 	  <!-- /Das Footer -->

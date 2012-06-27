@@ -37,13 +37,13 @@
             <p>Using Foundation we were able to quickly implement the desktop and mobile site. It was easy to setup the shell how we wanted because the overall width is customizable, and it was fun to experiment with different layouts on the fly using the built-in responsive grid.</p>               
           </div>
           <div class="six columns">
-            <img src="images/case-flite-1.jpg" id="sideDevice" />
+            <img src="images/case-swizzle-1.jpg" id="sideDeviceiPad" />
           </div>
         </div>
       
         <div class="row">
           <div class="six columns">
-            <img src="images/case-flite-2.png" />
+            <img src="images/case-swizzle-2.jpg" />
           </div>
           <div class="six columns"> 
             <h4>Device-Specific Navigation</h4>

@@ -7,7 +7,7 @@
     <div class="row">
       <div class="twelve columns">
         <h1>Mobile Navigation</h1>
-        <h4>There are several mobile-specific styles available to manage navigation. By using Foundation's tab structure you can not only create a tabbed interface, you can restyle those tabs into mobile nav block by simply adding a class of 'mobile'.</h4>
+        <h4>There are several mobile-specific styles available to manage navigation. By using Foundation's tab structure you can not only create a tabbed interface, you can restyle those tabs into mobile nav blocks by simply adding a class of 'mobile'.</h4>
       </div>
     </div>
   </header>
@@ -23,7 +23,7 @@
 	  			<dd><a href="#">Vicunas</a></dd>
 	  			<dd><a href="#">Other</a></dd>
 	  		</dl>
-	  		<p>You can also use standard tabs on mobile devices, including the built-in tab switching javascript that comes with Foundation. Check out the <a href="docs/ui.php">UI documentation</a> for examples of how that works.</p>
+	  		<p>You can also use standard tabs on mobile devices, including the built-in tab switching javascript that comes with Foundation. Check out the <a href="docs/tabs.php">tabs documentation</a> for examples of how that works.</p>
 	  		
 	  	</div>
 	  	<div class="six columns">

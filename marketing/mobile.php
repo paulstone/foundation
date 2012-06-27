@@ -24,7 +24,7 @@
       </div>
       
       <div class="ten columns">
-      	<img src="http://www.placehold.it/900x300">
+      	<img src="images/feature-mobile-1.jpg">
         <h4>Mockups don't tell a story. Build a prototype in no time.</h4>
         <p>Mobile devices are already eclipsing desktops in adoption and internet use &mdash; that's why Foundation was built from the ground up to support any kind of device, any size screen, with any resolution. You can get going quickly by building once for all devices, or you can create a site tailored to a specific experience. We've even included CSS styles to hide and show elements on different device types, so you can easily turn pieces on and off for each experience.</p>
         
@@ -32,19 +32,19 @@
         <div class="row">
         	<div class="four columns">
         	  <a href="mobile-example1.php" target="_blank">
-        	    <img src="http://www.placehold.it/600x400">
+        	    <img src="images/feature-mobile-2.png">
         	    <p>Mobile Grid</p>
         	  </a>
         	</div>
         	<div class="four columns">
         	  <a href="mobile-example2.php" target="_blank">
-        	    <img src="http://www.placehold.it/600x400">
+        	    <img src="images/feature-mobile-3.png">
         	    <p>Mobile Navigation</p>
         	  </a>
         	</div>
         	<div class="four columns">
         	  <a href="mobile-example3.php" target="_blank">
-        	    <img src="http://www.placehold.it/600x400">
+        	    <img src="images/feature-mobile-4.png">
         	    <p>Mobile Visibility</p>
         	  </a>
         	</div>

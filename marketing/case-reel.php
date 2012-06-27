@@ -35,21 +35,19 @@
             <h4>Identical Templates</h4>
             <p>The slideshow view uses the same HTML templates across all devices, but what the user sees differs pretty substantially between desktop and mobile. We used Foundation's media queries built into mobile.css to seamlessly show the right content for each device.</p>
             
+            <h4>Easy Organization</h4>
+            <p>We use the grid to easily organize content without needing to set custom positions for each block. Using the "centered" class in particular for those high-impact center blocks helped keep the markup simple.</p>
+            
           </div>
           <div class="six columns">
-            <img src="images/case-flite-1.jpg" id="sideDevice" />
+            <img src="images/case-reel-1.jpg" id="sideDeviceDesktop" />
           </div>
         </div>
       
         <div class="row">
-          <div class="six columns">
-            <img src="images/case-flite-2.png" />
-          </div>
-          <div class="six columns">
-            <h4>Easy Organization</h4>
-            <p>We use the grid to easily organize content without needing to set custom positions for each block. Using the "centered" class in particular for those high-impact center blocks helped keep the markup simple.</p>
+          <div class="twelve columns">
             <h4>Next Steps: New App</h4>
-        <p>That's not all - we're just getting started. We're working on Reel's big brother, a new app (also based on Foundation) that will include private presos, letting viewers add their own notes, and more! Stay tuned for details&hellip;</p>
+        <p>That's not all - we're just getting started. We're working on Reel's big brother, a new app (also based on Foundation) that will include private presos, letting viewers add their own notes, and more! It's in private bet, so stay tuned&hellip;</p>
           </div>
         </div>
             
