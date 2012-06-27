@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* Enter the Grid */
-/* ------------------------------ */
+/* The Grid ---------------------- */
 .row { width: 1000px; max-width: 100%; min-width: 768px; margin: 0 auto; }
 .row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
 .row.collapse .column, .row.collapse .columns { padding: 0; }
@@ -107,7 +106,7 @@ img { -ms-interpolation-mode: bicubic; }
 
 .row, .clearfix { zoom: 1; }
 
-/* Mobile */
+/* Mobile Grid and Overrides ---------------------- */
 @media only screen and (max-width: 768px) { body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
   .row { width: auto; min-width: 0; margin-left: 0; margin-right: 0; }
   .column, .columns { width: auto !important; float: none; }
@@ -133,10 +132,8 @@ img { -ms-interpolation-mode: bicubic; }
   .pull-two-mobile { right: 50%; }
   .push-three-mobile { left: 75%; }
   .pull-three-mobile { right: 75%; } }
-/*  --------------------------------------------------
-:: Block grids
-
-These are 2-up, 3-up, 4-up and 5-up ULs, suited
+/* Block Grids ---------------------- */
+/* These are 2-up, 3-up, 4-up and 5-up ULs, suited
 for repeating blocks of content. Add 'mobile' to
 them to switch them just like the layout grid
 (one item per line) on phones
@@ -169,6 +166,6 @@ that IE7/8 do not support :nth-child.
 .block-grid.five-up > li { width: 20%; padding: 0 8px 8px; }
 
 /*  .block-grid.five-up>li:nth-child(5n+1) {clear: left;} */
-/* Mobile */
+/* Mobile Block Grids */
 @media only screen and (max-width: 768px) { .block-grid.mobile { margin-left: 0; }
   .block-grid.mobile > li { float: none; width: 100%; margin-left: 0; } }

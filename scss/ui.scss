@@ -1,12 +1,5 @@
-/*
-  Foundation 3, artfully masterminded by ZURB
-  Core
-  ui.css
-
-  Requires:
-    globals.css
-*/
-
+/* Requires:
+   globals.css */
 
 /* Table of Contents
 
@@ -29,8 +22,7 @@
 
   @import "base";
 
-
-  /* Alerts */
+  /* Alerts ---------------------- */
 
   div.alert-box { display: block; padding: 6px 7px 7px; font-weight: bold; font-size: ms(0); color: $white; background-color: $mainColor; border: 1px solid rgba(#000,.1); margin-bottom: 12px; @include border-radius(3px); text-shadow: 0 -1px rgba(#000,.3); position: relative;
 
@@ -44,7 +36,7 @@
   }
 
 
-  /* Labels */
+  /* Labels ---------------------- */
 
   .label { padding: 1px 4px 2px; font-size: ms(0) - 2; font-weight: bold; text-align: center; text-decoration: none; line-height: 1; white-space: nowrap; display: inline; position: relative; bottom: 1px; color: #fff; background: $mainColor;
 
@@ -57,7 +49,7 @@
 
   }
 
-  /* Tooltips */
+  /* Tooltips ---------------------- */
 
   .has-tip { border-bottom: dotted 1px #ccc; cursor: help; font-weight: bold; color: #333;
 
@@ -84,7 +76,7 @@
 
   .tap-to-close { display: block; @include font-size(10); color: #888; font-weight: normal; }
 
-  /* Panels */
+  /* Panels ---------------------- */
 
   div.panel { background: darken($white, 5%); border: solid 1px darken($white, 10%); margin: 0 0 22px 0; padding: 20px;
 
@@ -103,7 +95,8 @@
 
   }
 
-  /* Side Nav */
+  /* Side Nav ---------------------- */
+
   ul.side-nav { display: block; list-style: none; margin: 0; padding: ms(1) 0;
 
     li { display: block; list-style: none; margin: 0 0 (ms(0)/2) 0;
@@ -114,8 +107,7 @@
     }
   }
 
-
-  /* Sub Navs http://www.zurb.com/article/292/how-to-create-simple-and-effective-sub-na */
+/* Sub Navs http://www.zurb.com/article/292/how-to-create-simple-and-effective-sub-na ---------------------- */
 
   dl.sub-nav { display: block; width: auto; overflow: hidden; margin: -4px 0 18px -9px; padding-top: 4px;
 
@@ -126,7 +118,7 @@
 
   }
 
-  /* Pagination */
+  /* Pagination ---------------------- */
 
   ul.pagination { display: block; height: 24px; margin-left: -5px;
 
@@ -143,7 +135,7 @@
 
   }
 
-  /* Breadcrumbs */
+  /* Breadcrums ---------------------- */
 
   ul.breadcrumbs { display: block; background: lighten($secondaryColor, 5%); padding: 6px 10px 7px; border: 1px solid $secondaryColor; @include border-radius(2px); overflow: hidden;
 
@@ -165,7 +157,7 @@
 
   }
 
-  /* Lists */
+  /* Lists ---------------------- */
 
   ul.nice, ol.nice { list-style: none; margin: 0;
 
@@ -183,11 +175,13 @@
     }
   }
 
-  /* Keystroke Characters */
+
+  /* Keytroke Characters ---------------------- */
+
   span.keystroke { font-family: "Consolas", "Menlo", "Courier", monospace; font-size: ms(0) - 1; padding: 2px 4px 0px; white-space: nowrap; margin: 0; background: darken($white, 7%); border: solid 1px darken($white, 14%); @include border-radius($buttonRadius); }
 
 
-  /* Video - Mad props to http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ */
+  /* Video - Mad props to http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ ---------------------- */
 
   .flex-video {
     position: relative;
@@ -204,8 +198,8 @@
 
   }
 
-  /* Tables
-  -------------------------------------------------- */
+  /* Tables ---------------------- */
+
   table { background: #fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 0 0 18px; border: 1px solid #ddd;  }
 
   table thead, table tfoot { background: #f5f5f5; }
@@ -224,7 +218,7 @@
   table tbody tr:nth-child(even) { background: #f9f9f9; }
   table tbody tr td { color: #333; padding: 9px 10px; vertical-align: top; border: none; }
 
-  /* Microformats */
+  /* Microformats ---------------------- */
 
   ul.vcard { display: inline-block; margin: 0 0 12px 0; border: 1px solid #ddd; padding: 10px;
 

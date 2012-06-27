@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Base Type Styles Using Modular Scale ---------------------- */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td { margin: 0; padding: 0; }
 
 p { font-size: 14px; line-height: 1.6; margin-bottom: 17px; }
@@ -35,7 +36,7 @@ small { font-size: 60%; line-height: inherit; }
 
 code { font-weight: bold; background: #ffff99; }
 
-/* Lists */
+/* Lists ---------------------- */
 ul, ol { font-size: 14px; line-height: 1.6; margin-bottom: 17px; list-style-position: outside; }
 
 ul.square, ul.circle, ul.disc { margin-left: 17px; }
@@ -48,7 +49,7 @@ ul.disc { list-style-type: disc; }
 
 ul.large li { line-height: 21px; }
 
-/*  Blockquotes  */
+/* Blockquotes ---------------------- */
 blockquote, blockquote p { line-height: 1.5; color: #777; }
 
 blockquote { margin: 0 0 17px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }

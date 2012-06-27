@@ -6,9 +6,7 @@
 
   @import "base";
 
-/*  --------------------------------------------------
-  Reveal Modals
-  -------------------------------------------------- */
+/* Reveal Modals ---------------------- */
 
   .reveal-modal-bg { position: fixed; height: 100%; width: 100%; background: #000; background: rgba(#000, .45); z-index: 40; display: none; top: 0; left: 0; }
 
@@ -34,7 +32,6 @@
   }
 
   /* Mobile */
-
   @media #{$media-small} {
     .reveal-modal-bg { position: absolute; }
 
@@ -46,11 +43,9 @@
   }
 
   /* NOTES
-
   Close button entity is &#215;
 
   Example markup
-
   <div id="myModal" class="reveal-modal">
    <h2>Awesome. I have it.</h2>
    <p class="lead">Your couch.  I it's mine.</p>

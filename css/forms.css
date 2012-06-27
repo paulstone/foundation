@@ -1,9 +1,6 @@
 @charset "UTF-8";
-/* Foundation 3, artfully masterminded by ZURB Core forms.css - Regular and custom styles for common form elements.
- Requires: globals.css
-*/
-/* ----------------------------------------- Standard Forms
------------------------------------------ */
+/* Requires globals.css */
+/* Standard Forms ---------------------- */
 form { margin: 0 0 19.416px; }
 
 .row form .row { margin: 0 -6px; }
@@ -43,8 +40,7 @@ fieldset legend { font-weight: bold; background: white; padding: 0 3px; margin: 
 
 .form-field.error small, small.error { padding: 6px 4px; border: solid 0 #C00000; border-width: 0 1px 1px 1px; margin-top: -10px; background: #c60f13; color: #fff; font-size: 12; font-size: 1.2 rem; font-weight: bold; -moz-border-radius-topleft: 2px; -webkit-border-top-left-radius: 2px; border-top-left-radius: 2px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* ----------------------------------------- Custom Forms
------------------------------------------ */
+/* Custom Forms ---------------------- */
 form.custom { /* Custom input, disabled */ }
 form.custom span.custom { display: inline-block; width: 14px; height: 14px; position: relative; top: 2px; border: solid 1px #ccc; background: #fff; }
 form.custom span.custom.radio { -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px; border-radius: 100px; }
