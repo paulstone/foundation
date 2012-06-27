@@ -2,12 +2,17 @@
   //------------------------------------------------
   @mixin font-size($size, $is-important: false) {
     @if $is-important {
-      font-size: $size + px !important;
-      font-size: ($size / 10) + rem !important;
+      font-size: $size !important;
+      font-size: ($size / 10)rem !important;
     } @else {
-      font-size: $size + px;
-      font-size: ($size / 10) + rem;
+      font-size: $size;
+      font-size: ($size / 10)rem;
     }
+  }
+
+  // Grid Calculation for Percentages
+  @function grid-calc($col_number, $total_columns) {
+    @return percentage(($col_number / $total_columns));
   }
 
   // Default Font Stack
