@@ -25,7 +25,7 @@
     }
   }
 
-  label { color: lighten($black, 30%); cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px;
+  label { font-size: ms(0) - 1; color: lighten($black, 30%); cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px;
 
     &.right { float: none; text-align: right; padding-top: ($formSpacing / 2); }
   }
@@ -46,9 +46,6 @@
 
   select { width: 100%; }
 
-  input.input-text, textarea { border: solid 1px #bbb; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; display: block; margin-bottom: 9px; @include font-size(13); padding: 6px 3px 4px; outline: none !important; background: url(../images/misc/input-bg.png) #fff; }
-  textarea { max-width: 100%; }
-
   /* Fieldsets */
   fieldset { border: solid 1px #ddd; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; padding: 12px 12px 0; margin: 18px 0;
 
@@ -61,7 +58,7 @@
   /* Errors */
   .form-field.error input, input.input-text.alert { border-color: $alertColor; background-color: rgba(255,0,0,0.15); }
   .form-field.error label, label.alert { color: $alertColor; }
-  .form-field.error small, small.error { padding: 6px 4px; border: solid 0 #C00000; border-width: 0 1px 1px 1px; margin-top: -10px; background: $alertColor; color: #fff; @include font-size(12); font-weight: bold; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; -webkit-border-bottom-left-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-bottomleft: 2px; -moz-border-radius-bottomright: 2px; display: block; margin-bottom: 9px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+  .form-field.error small, small.error { padding: 6px 4px; border: solid 0 #C00000; border-width: 0 1px 1px 1px; margin-top: -10px; background: $alertColor; color: #fff; @include font-size(12); font-weight: bold; @include border-top-left-radius(2px); @include box-sizing(border-box); }
 
 
   /* -----------------------------------------
@@ -70,17 +67,28 @@
 
   form.custom {
 
-    span.custom { display: inline-block; width: 14px; height: 14px; position: relative; top: 2px; border: solid 1px #ccc; background: url(../images/misc/custom-form-sprites.png) 0 0 no-repeat;
+    span.custom { display: inline-block; width: 14px; height: 14px; position: relative; top: 2px; border: solid 1px #ccc; background: #fff;
 
-      &.radio { border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; }
-      &.radio.checked { background-position: -1px -15px; }
-      &.checkbox.checked { background-position: -1px -29px; }
+      &.radio { @include border-radius(100px); }
+      &.checkbox {
+        &:before { content: "\00d7"; position: relative; top: -3px; left: 2px; font-size: 13px; color: #fff; }
+      }
+      &.radio.checked {
+        &:before { content: ""; display: block; width: 8px; height: 8px; @include border-radius(100px); background: #222; position: relative; top: 2px; left: 2px; }
+      }
+      &.checkbox.checked {
+        &:before { content: "\00d7"; position: relative; top: -3px; left: 2px; font-size: 13px; color: #222; }
+      }
     }
-
     div.custom.dropdown { display: block; position: relative; width: auto; height: 28px; margin-bottom: 9px; margin-top: 2px;
 
       a.current { display: block; width: auto; line-height: 26px; min-height: 28px; padding: 0 38px 0 6px; border: solid 1px #ddd; color: #141414; background-color: #fff; word-wrap: nowrap; }
-      a.selector { position: absolute; width: 28px; height: 28px; display: block; background: url(../images/misc/custom-form-sprites.png) -14px 1px no-repeat; right: 0; top: 0; border: solid 1px #ddd; }
+      a.selector { position: absolute; width: 27px; height: 28px; display: block; right: 0; top: 0; border: solid 1px #ddd;
+        &:after { content: ""; display: block; @include css-triangle(5px, #aaa, top); position: absolute; left: 50%; top: 50%; margin-top: -2px; margin-left: -5px;  }
+      }
+      &:hover, &.open {
+        a.selector { &:after { @include css-triangle(5px, #222, top); } }
+      }
 
       &.open ul { display: block; z-index: 10; }
 
@@ -95,15 +103,18 @@
       &.open.expand ul { width: 100% !important; }
     }
 
-    div.custom.dropdown:hover a.selector,
-    div.custom.dropdown.open a.selector { background-position: -14px -25px; }
+    div.custom.dropdown ul { position: absolute; width: auto; display: none; margin: 0; left: 0; top: 27px; margin: 0; padding: 0; background: #fff; background: rgba(#fff,0.95); border: solid 1px darken($white, 20%);
 
-    div.custom.dropdown ul { position: absolute; width: auto; display: none; margin: 0; left: 0; top: 27px; margin: 0; padding: 0; background: #fff; background: rgba(255,255,255,0.95); border: solid 1px #ddd;
-
-      li { cursor: pointer; padding: 3px 38px 3px 6px; min-height: 18px; line-height: 18px; margin: 0; white-space: nowrap; list-style: none; }
-      li.selected { background: url(../images/misc/custom-form-sprites.png) right -52px no-repeat; }
-      li:hover { background-color: $mainColor; color: #fff; }
-      li.selected:hover { background: url(../images/misc/custom-form-sprites.png) $mainColor right -78px no-repeat; }
+      li { color: #555; font-size: ms(0) - 1; cursor: pointer; padding: 3px 38px 3px 6px; min-height: 18px; line-height: 18px; margin: 0; white-space: nowrap; list-style: none; }
+      li.selected { background: lighten($mainColor, 40%); color: #000;
+        &:after { content: "\2013"; position: absolute; right: 10px; }
+      }
+      li:hover { background-color: lighten($mainColor, 45%); color: #222;
+        &:after { content: "\2013"; position: absolute; right: 10px; color: lighten($mainColor, 25%); }
+      }
+      li.selected:hover { background: lighten($mainColor, 40%); cursor: default; color: #000;
+        &:after { color: #000; }
+      }
       &.show { display: block; }
     }
 
