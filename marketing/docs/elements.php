@@ -91,7 +91,7 @@
   					<div class="three columns end phone-two">
   						<p>
   							<span class="secondary radius label">Secondary Label</span><br />
-  							<span class="alert label">Alery Label</span><br />
+  							<span class="alert label">Alert Label</span><br />
   							<span class="success round label">Success Label</span><br />
   						</p>
   					</div>
