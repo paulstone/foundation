@@ -94,24 +94,25 @@ jQuery(document).ready(function ($) {
 	/* Gives elements with a class of 'disabled' a return: false; */
 
   /* SPLIT BUTTONS/DROPDOWNS */
-  if (!Modernizr.touch) $('.button.dropdown > ul').addClass('no-hover');
+  $('.button.dropdown > ul').addClass('no-hover');
 
-  $('.button.dropdown').click(function(e) {
+  $('.button.dropdown').on('click.fndtn touchstart.fndtn', function (e) {
     e.stopPropagation();
   });
-  $('.button.dropdown.split span').click(function(e) {
+  $('.button.dropdown.split span').on('click.fndtn touchstart.fndtn', function (e) {
     e.preventDefault();
     $('.button.dropdown').not($(this).parent()).children('ul').removeClass('show-dropdown');
     $(this).siblings('ul').toggleClass('show-dropdown');
   });
-  $('.button.dropdown').not('.split').click(function(e) {
+  $('.button.dropdown').not('.split').on('click.fndtn touchstart.fndtn', function (e) {
     e.preventDefault();
     $('.button.dropdown').not(this).children('ul').removeClass('show-dropdown');
     $(this).children('ul').toggleClass('show-dropdown');
   });
-  $('body, html').click(function() {
+  $('body, html').on('click.fndtn touchstart.fndtn', function () {
     $('.button.dropdown ul').removeClass('show-dropdown');
   });
+
   // Positioning the Flyout List
   var normalButtonHeight  = $('.button.dropdown:not(.large):not(.small):not(.tiny)').outerHeight() - 1,
       largeButtonHeight   = $('.button.large.dropdown').outerHeight() - 1,
@@ -122,14 +123,5 @@ jQuery(document).ready(function ($) {
   $('.button.dropdown.large > ul').css('top', largeButtonHeight);
   $('.button.dropdown.small > ul').css('top', smallButtonHeight);
   $('.button.dropdown.tiny > ul').css('top', tinyButtonHeight);
-
-  /* REQUIRED CSS CHANGES
-  .button.dropdown:hover > ul.no-hover {
-    display: none;
-  }
-  .button.dropdown > ul.show-dropdown {
-    display: block !important;
-  }
-  */
 
 });
