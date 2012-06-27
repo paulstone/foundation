@@ -55,14 +55,14 @@
   @mixin pull($push:1) { right: grid-calc($push, $total_columns); }
 
   // Mobile Row, synctax is @include mobile-row();
-  @mixin mobile-row() { width: auto; min-width: 0; margin-left: 0; margin-right: 0; @include clearfix(); }
+  @mixin mobile-row() { @include respond-to(small-screen) { width: auto; min-width: 0; margin-left: 0; margin-right: 0; @include clearfix(); } }
 
   // Mobile Columns, syntax is @include mobile-column(#);
   @mixin mobile-column($columns:$columns) { @include respond-to(small-screen) { width: grid-calc($columns, $mobile_total_columns); float: left; padding: 0 ($column_gutter/2); } }
 
   // Mobile Push/Pull Mixin
-  @mixin mobile-push($push:1) { left: grid-calc($push, $mobile_total_columns); }
-  @mixin mobile-pull($push:1) { right: grid-calc($push, $mobile_total_columns); }
+  @mixin mobile-push($push:1) { @include respond-to(small-screen) { left: grid-calc($push, $mobile_total_columns); } }
+  @mixin mobile-pull($push:1) { @include respond-to(small-screen) { right: grid-calc($push, $mobile_total_columns); } }
 
 
   /* Enter the Grid */
@@ -91,12 +91,14 @@
       .#{convert-number-to-word($i)} { width: grid-calc($i, $total_columns); }
     }
   }
+
   // Creating .row.offset-by-# classes
   @for $i from 1 through $total_columns - 2 {
     .row {
       .offset-by-#{convert-number-to-word($i)} { margin-left: grid-calc($i, $total_columns); }
     }
   }
+
   // Creating .row.push-# classes
   @for $i from 2 through $total_columns - 2 {
     .push-#{convert-number-to-word($i)} { left: grid-calc($i, $total_columns); }
