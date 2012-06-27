@@ -24,7 +24,7 @@ jQuery(document).ready(function ($) {
     $(contentLocation).css('display', 'block');
   }
 
-  $('dl.tabs dd a').live('click', function (event) {
+  $('dl.tabs dd a').on('click.fndtn', function (event) {
     activateTab($(this).parent('dd'));
   });
 
@@ -64,7 +64,7 @@ jQuery(document).ready(function ($) {
   /* DROPDOWN NAV ------------- */
 
   var lockNavBar = false;
-  $('.nav-bar a.flyout-toggle').live('click', function(e) {
+  $('.nav-bar a.flyout-toggle').on('click.fndtn touchstart.fndtn', function(e) {
     e.preventDefault();
     var flyout = $(this).siblings('.flyout');
     if (lockNavBar === false) {
@@ -76,12 +76,7 @@ jQuery(document).ready(function ($) {
     lockNavBar = true;
   });
   if (Modernizr.touch) {
-    $('.nav-bar>li.has-flyout>a.main').css({
-      'padding-right' : '75px'
-    });
-    $('.nav-bar>li.has-flyout>a.flyout-toggle').css({
-      'border-left' : '1px dashed #eee'
-    });
+    $('.nav-bar>li.has-flyout').addClass('is-touch');
   } else {
     $('.nav-bar>li.has-flyout').hover(function() {
       $(this).children('.flyout').show();
