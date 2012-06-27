@@ -39,7 +39,7 @@ header#homepage .button { background: #137795; border: none; -webkit-box-shadow:
 header#homepage .button:hover { background: #006582; }
 
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-  
+
   header#homepage { background-size: auto 357.5px; background-image: url(images/device-bg-retina.png); }
 }
 
@@ -53,7 +53,7 @@ header#homepage .button:hover { background: #006582; }
 .pic#homepageImgAdvanced { background-image: url(images/homepageImgAdvanced.png); }
 
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-  
+
   .pic#homepageImgSass { background-image: url(images/homepageImgSass-retina.png); }
   .pic#homepageImgFeatures { background-image: url(images/homepageImgFeatures-retina.png); }
   .pic#homepageImgAdvanced { background-image: url(images/homepageImgAdvanced-retina.png); }
@@ -74,7 +74,7 @@ header#homepage .button:hover { background: #006582; }
 #featureDevices { background-image: url(images/featureDevices.png); }
 
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-  
+
   #featureGrid { background-image: url(images/featureGrid-retina.png); }
   #featurePrototype { background-image: url(images/featurePrototype-retina.png); }
   #featureDevices { background-image: url(images/featureDevices-retina.png); }
@@ -115,6 +115,12 @@ header#homepage .button:hover { background: #006582; }
 #megaDrop li { list-style: none; }
 #megaDrop .show-on-phones, #megaDrop .sitemap-link { display: none !important; }
 
+
+/* Customizer Page */
+.customizer li { padding: 6px 0; }
+.customizer li:first-child { padding-top: 0; }
+.customizer li label { font-size: 13px; font-size: 1.3rem; line-height: 1; margin-bottom: 0; }
+.customizer li em { padding-left: 16px; font-size: 11px; font-size: 1.1rem; color: #777; font-style: normal; }
 
 /* Fonts */
 

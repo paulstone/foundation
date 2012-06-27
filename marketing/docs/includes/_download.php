@@ -10,9 +10,9 @@
 				<!-- ==========================
 				ZURBjobs
 				=============================== -->
-				
+
 				<div class="jobs hide-on-phones">
-					<h5>Score an awesome product engineering<br />or design job. Check out:</h5>
+					<h5>Score an awesome product engineering or design job. Check out:</h5>
 					<script type="text/javascript" src="http://www.zurb.com/jobs/widgets/jobs.js?limit=3&variation=foundation-sidebar"></script>
 					<a id="via" href="http://zurbjobs.com">via&nbsp;<span class="jobs-link">ZURBjobs</span></a>
 				</div>
