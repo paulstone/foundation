@@ -2,10 +2,6 @@
   @import "base";
 
   // Inspired by https://github.com/twigkit/semantic.gs/blob/master/stylesheets/scss/grid.scss
-  $row_width: 1000px;
-  $column_gutter: 30px;
-  $total_columns: 12;
-  $mobile_total_columns: 4;
 
   // Mixin for Semantic Grid reponsiveness
   @mixin respond-to($media) {
