@@ -46,9 +46,9 @@
       <div class="three columns">
         <div id="github">
           <h4>Latest Update on Github</h4>
-          <span class="date">June 11, 2012</span>
-          <span class="description">Merge branch 'master' of github.com:zurb/foundation</span>
-          <a href="#" class="commit">Commit c83520f4351743e7e95083a2ffbf9d416903e9ae</a>
+          <span class="date">loading...</span>
+          <span class="description"></span>
+          <a href="#" class="commit"></a>
           
           <a href="github-mac://openRepo/https://github.com/zurb/foundation" class="button secondary">Clone Now</a>
           
